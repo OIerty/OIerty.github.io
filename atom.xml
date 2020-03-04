@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://oierty.github.io</id>
+    <id>https://oier-ty.github.io</id>
     <title>OIer Tang Ye&apos;s Blog</title>
-    <updated>2020-03-03T23:59:52.647Z</updated>
+    <updated>2020-03-04T00:09:51.389Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://oierty.github.io"/>
-    <link rel="self" href="https://oierty.github.io/atom.xml"/>
+    <link rel="alternate" href="https://oier-ty.github.io"/>
+    <link rel="self" href="https://oier-ty.github.io/atom.xml"/>
     <subtitle>一个奋斗ing的OIer</subtitle>
-    <logo>https://oierty.github.io/images/avatar.png</logo>
-    <icon>https://oierty.github.io/favicon.ico</icon>
+    <logo>https://oier-ty.github.io/images/avatar.png</logo>
+    <icon>https://oier-ty.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, OIer Tang Ye&apos;s Blog</rights>
     <entry>
         <title type="html"><![CDATA[【Codeforces】题解 CF401C 【Team】]]></title>
-        <id>https://oierty.github.io/solution-CF401C/</id>
-        <link href="https://oierty.github.io/solution-CF401C/">
+        <id>https://oier-ty.github.io/solution-CF401C/</id>
+        <link href="https://oier-ty.github.io/solution-CF401C/">
         </link>
         <updated>2020-03-01T12:16:53.000Z</updated>
         <content type="html"><![CDATA[<h2 id="cf401cteam"><a href="https://www.luogu.com.cn/problem/CF401C">CF401C【Team】</a></h2>
@@ -55,8 +55,8 @@ int main(){
     </entry>
     <entry>
         <title type="html"><![CDATA[声明]]></title>
-        <id>https://oierty.github.io/statement/</id>
-        <link href="https://oierty.github.io/statement/">
+        <id>https://oier-ty.github.io/statement/</id>
+        <link href="https://oier-ty.github.io/statement/">
         </link>
         <updated>2020-03-01T11:55:19.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -68,8 +68,8 @@ int main(){
     </entry>
     <entry>
         <title type="html"><![CDATA[浅谈__int128]]></title>
-        <id>https://oierty.github.io/int128/</id>
-        <link href="https://oierty.github.io/int128/">
+        <id>https://oier-ty.github.io/int128/</id>
+        <link href="https://oier-ty.github.io/int128/">
         </link>
         <updated>2020-02-29T01:16:45.000Z</updated>
         <content type="html"><![CDATA[<p>很多时候，题目的数据范围刚好卡在long long的临界范围，经过多次运算后，最后答案就有可能会爆（例如P6101 出言不逊）。</p>
@@ -175,8 +175,8 @@ int main(){
     </entry>
     <entry>
         <title type="html"><![CDATA[游戏]]></title>
-        <id>https://oierty.github.io/game/</id>
-        <link href="https://oierty.github.io/game/">
+        <id>https://oier-ty.github.io/game/</id>
+        <link href="https://oier-ty.github.io/game/">
         </link>
         <updated>2020-02-29T01:14:58.000Z</updated>
         <content type="html"><![CDATA[<h3 id="一大波闲的无聊的游戏冲击"><strong>一大波闲的无聊的游戏冲击：</strong></h3>
@@ -190,8 +190,8 @@ int main(){
     </entry>
     <entry>
         <title type="html"><![CDATA[【洛谷】题解P1706【全排列问题】]]></title>
-        <id>https://oierty.github.io/solution-P1706/</id>
-        <link href="https://oierty.github.io/solution-P1706/">
+        <id>https://oier-ty.github.io/solution-P1706/</id>
+        <link href="https://oier-ty.github.io/solution-P1706/">
         </link>
         <updated>2020-02-29T00:55:04.000Z</updated>
         <content type="html"><![CDATA[<h2 id="洛谷p1706全排列问题"><a href="https://www.luogu.com.cn/problem/P1706">【洛谷】P1706【全排列问题】</a></h2>
@@ -229,8 +229,8 @@ int main(){
     </entry>
     <entry>
         <title type="html"><![CDATA[【洛谷】题解 P1090 【合并果子】]]></title>
-        <id>https://oierty.github.io/solution-P1090/</id>
-        <link href="https://oierty.github.io/solution-P1090/">
+        <id>https://oier-ty.github.io/solution-P1090/</id>
+        <link href="https://oier-ty.github.io/solution-P1090/">
         </link>
         <updated>2020-02-29T00:05:14.000Z</updated>
         <content type="html"><![CDATA[<h2 id="洛谷p1090合并果子"><a href="https://www.luogu.com.cn/problem/P1090">【洛谷】P1090【合并果子】</a></h2>
@@ -271,8 +271,8 @@ int main(){
     </entry>
     <entry>
         <title type="html"><![CDATA[导读]]></title>
-        <id>https://oierty.github.io/contents/</id>
-        <link href="https://oierty.github.io/contents/">
+        <id>https://oier-ty.github.io/contents/</id>
+        <link href="https://oier-ty.github.io/contents/">
         </link>
         <updated>2020-02-28T10:49:09.000Z</updated>
         <content type="html"><![CDATA[<h2 id="题解"><a href="https://oierty.github.io/solution">题解</a></h2>
@@ -282,8 +282,8 @@ int main(){
     </entry>
     <entry>
         <title type="html"><![CDATA[主页]]></title>
-        <id>https://oierty.github.io/主页/</id>
-        <link href="https://oierty.github.io/主页/">
+        <id>https://oier-ty.github.io/主页/</id>
+        <link href="https://oier-ty.github.io/主页/">
         </link>
         <updated>2020-02-26T16:00:00.000Z</updated>
         <content type="html"><![CDATA[<h2 id="洛谷咕值">洛谷咕值：</h2>
@@ -461,8 +461,8 @@ CE耻，犹未雪。蒟蒻恨，何时灭！驾程序，踏破题目列表。闭
     </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
-        <id>https://oierty.github.io/about/</id>
-        <link href="https://oierty.github.io/about/">
+        <id>https://oier-ty.github.io/about/</id>
+        <link href="https://oier-ty.github.io/about/">
         </link>
         <updated>2020-02-24T16:00:00.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -490,8 +490,8 @@ CE耻，犹未雪。蒟蒻恨，何时灭！驾程序，踏破题目列表。闭
     </entry>
     <entry>
         <title type="html"><![CDATA[题解汇总]]></title>
-        <id>https://oierty.github.io/solution/</id>
-        <link href="https://oierty.github.io/solution/">
+        <id>https://oier-ty.github.io/solution/</id>
+        <link href="https://oier-ty.github.io/solution/">
         </link>
         <updated>2020-02-24T16:00:00.000Z</updated>
         <content type="html"><![CDATA[<h2 id="洛谷">洛谷：</h2>
