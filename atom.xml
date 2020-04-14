@@ -1,26 +1,180 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://oierty.github.io</id>
+    <id>https://oier-ty.github.io</id>
     <title>OIer Tang Ye&apos;s Blog</title>
-    <updated>2020-03-15T07:31:55.236Z</updated>
+    <updated>2020-04-14T09:33:52.299Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://oierty.github.io"/>
-    <link rel="self" href="https://oierty.github.io/atom.xml"/>
+    <link rel="alternate" href="https://oier-ty.github.io"/>
+    <link rel="self" href="https://oier-ty.github.io/atom.xml"/>
     <subtitle>一个奋斗ing的OIer</subtitle>
-    <logo>https://oierty.github.io/images/avatar.png</logo>
-    <icon>https://oierty.github.io/favicon.ico</icon>
+    <logo>https://oier-ty.github.io/images/avatar.png</logo>
+    <icon>https://oier-ty.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, OIer Tang Ye&apos;s Blog</rights>
     <entry>
+        <title type="html"><![CDATA[初中卷]]></title>
+        <id>https://oier-ty.github.io/初中卷/</id>
+        <link href="https://oier-ty.github.io/初中卷/">
+        </link>
+        <updated>2020-03-24T05:24:39.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="1因式分解技巧"><a href="/%E5%B0%8F%E8%93%9D%E6%9C%AC/%E5%88%9D%E4%B8%AD%E5%8D%B7/1%E5%9B%A0%E5%BC%8F%E5%88%86%E8%A7%A3%E6%8A%80%E5%B7%A7.pdf">1因式分解技巧</a></h3>
+<h3 id="2方程与方程组"><a href="/%E5%B0%8F%E8%93%9D%E6%9C%AC/%E5%88%9D%E4%B8%AD%E5%8D%B7/2%E6%96%B9%E7%A8%8B%E4%B8%8E%E6%96%B9%E7%A8%8B%E7%BB%84.pdf">2方程与方程组</a></h3>
+<h3 id="3一次函数与二次函数"><a href="/%E5%B0%8F%E8%93%9D%E6%9C%AC/%E5%88%9D%E4%B8%AD%E5%8D%B7/3%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B0%E4%B8%8E%E4%BA%8C%E6%AC%A1%E5%87%BD%E6%95%B0.pdf">3一次函数与二次函数</a></h3>
+<h3 id="4三角形与四边形"><a href="/%E5%B0%8F%E8%93%9D%E6%9C%AC/%E5%88%9D%E4%B8%AD%E5%8D%B7/4%E4%B8%89%E8%A7%92%E5%BD%A2%E4%B8%8E%E5%9B%9B%E8%BE%B9%E5%BD%A2.pdf">4三角形与四边形</a></h3>
+<h3 id="5圆"><a href="/%E5%B0%8F%E8%93%9D%E6%9C%AC/%E5%88%9D%E4%B8%AD%E5%8D%B7/5%E5%9C%86.pdf">5圆</a></h3>
+<h3 id="6整除-同余与不定方程"><a href="/%E5%B0%8F%E8%93%9D%E6%9C%AC/%E5%88%9D%E4%B8%AD%E5%8D%B7/6%E6%95%B4%E9%99%A4%E3%80%81%E5%90%8C%E4%BD%99%E4%B8%8E%E4%B8%8D%E5%AE%9A%E6%96%B9%E7%A8%8B.pdf">6整除、同余与不定方程</a></h3>
+<h3 id="7组合趣题"><a href="/%E5%B0%8F%E8%93%9D%E6%9C%AC/%E5%88%9D%E4%B8%AD%E5%8D%B7/7%E7%BB%84%E5%90%88%E8%B6%A3%E9%A2%98.pdf">7组合趣题</a></h3>
+<h3 id="8初中数学竞赛中的解题方法与策略"><a href="/%E5%B0%8F%E8%93%9D%E6%9C%AC/%E5%88%9D%E4%B8%AD%E5%8D%B7/8%E5%88%9D%E4%B8%AD%E6%95%B0%E5%AD%A6%E7%AB%9E%E8%B5%9B%E4%B8%AD%E7%9A%84%E8%A7%A3%E9%A2%98%E6%96%B9%E6%B3%95%E4%B8%8E%E7%AD%96%E7%95%A5.pdf">8初中数学竞赛中的解题方法与策略</a></h3>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小蓝本]]></title>
+        <id>https://oier-ty.github.io/小蓝本/</id>
+        <link href="https://oier-ty.github.io/小蓝本/">
+        </link>
+        <updated>2020-03-24T04:55:22.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="这是数学奥林匹克小丛书合集pdf">这是数学奥林匹克小丛书合集（pdf）</h1>
+<h2 id="初中卷"><a href="/%E5%B0%8F%E8%93%9D%E6%9C%AC/%E5%88%9D%E4%B8%AD%E5%8D%B7">初中卷</a></h2>
+<h3 id="1因式分解技巧"><a href="/%E5%B0%8F%E8%93%9D%E6%9C%AC/%E5%88%9D%E4%B8%AD%E5%8D%B7/1%E5%9B%A0%E5%BC%8F%E5%88%86%E8%A7%A3%E6%8A%80%E5%B7%A7.pdf">1因式分解技巧</a></h3>
+<h3 id="2方程与方程组"><a href="/%E5%B0%8F%E8%93%9D%E6%9C%AC/%E5%88%9D%E4%B8%AD%E5%8D%B7/2%E6%96%B9%E7%A8%8B%E4%B8%8E%E6%96%B9%E7%A8%8B%E7%BB%84.pdf">2方程与方程组</a></h3>
+<h3 id="3一次函数与二次函数"><a href="/%E5%B0%8F%E8%93%9D%E6%9C%AC/%E5%88%9D%E4%B8%AD%E5%8D%B7/3%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B0%E4%B8%8E%E4%BA%8C%E6%AC%A1%E5%87%BD%E6%95%B0.pdf">3一次函数与二次函数</a></h3>
+<h3 id="4三角形与四边形"><a href="/%E5%B0%8F%E8%93%9D%E6%9C%AC/%E5%88%9D%E4%B8%AD%E5%8D%B7/4%E4%B8%89%E8%A7%92%E5%BD%A2%E4%B8%8E%E5%9B%9B%E8%BE%B9%E5%BD%A2.pdf">4三角形与四边形</a></h3>
+<h3 id="5圆"><a href="/%E5%B0%8F%E8%93%9D%E6%9C%AC/%E5%88%9D%E4%B8%AD%E5%8D%B7/5%E5%9C%86.pdf">5圆</a></h3>
+<h3 id="6整除-同余与不定方程"><a href="/%E5%B0%8F%E8%93%9D%E6%9C%AC/%E5%88%9D%E4%B8%AD%E5%8D%B7/6%E6%95%B4%E9%99%A4%E3%80%81%E5%90%8C%E4%BD%99%E4%B8%8E%E4%B8%8D%E5%AE%9A%E6%96%B9%E7%A8%8B.pdf">6整除、同余与不定方程</a></h3>
+<h3 id="7组合趣题"><a href="/%E5%B0%8F%E8%93%9D%E6%9C%AC/%E5%88%9D%E4%B8%AD%E5%8D%B7/7%E7%BB%84%E5%90%88%E8%B6%A3%E9%A2%98.pdf">7组合趣题</a></h3>
+<h3 id="8初中数学竞赛中的解题方法与策略"><a href="/%E5%B0%8F%E8%93%9D%E6%9C%AC/%E5%88%9D%E4%B8%AD%E5%8D%B7/8%E5%88%9D%E4%B8%AD%E6%95%B0%E5%AD%A6%E7%AB%9E%E8%B5%9B%E4%B8%AD%E7%9A%84%E8%A7%A3%E9%A2%98%E6%96%B9%E6%B3%95%E4%B8%8E%E7%AD%96%E7%95%A5.pdf">8初中数学竞赛中的解题方法与策略</a></h3>
+<hr>
+<h2 id="高中卷"><a href="/%E5%B0%8F%E8%93%9D%E6%9C%AC/%E9%AB%98%E4%B8%AD%E5%8D%B7">高中卷</a></h2>
+<h3 id="1集合"><a href="%E5%B0%8F%E8%93%9D%E6%9C%AC/%E9%AB%98%E4%B8%AD%E5%8D%B7/1%E9%9B%86%E5%90%88.pdf">1集合</a></h3>
+<h3 id="2函数与函数方程"><a href="%E5%B0%8F%E8%93%9D%E6%9C%AC/%E9%AB%98%E4%B8%AD%E5%8D%B7/2%E5%87%BD%E6%95%B0%E4%B8%8E%E5%87%BD%E6%95%B0%E6%96%B9%E7%A8%8B.pdf">2函数与函数方程</a></h3>
+<h3 id="3三角函数"><a href="%E5%B0%8F%E8%93%9D%E6%9C%AC/%E9%AB%98%E4%B8%AD%E5%8D%B7/3%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0.pdf">3三角函数</a></h3>
+<h3 id="4平均值不等式与柯西不等式"><a href="%E5%B0%8F%E8%93%9D%E6%9C%AC/%E9%AB%98%E4%B8%AD%E5%8D%B7/4%E5%B9%B3%E5%9D%87%E5%80%BC%E4%B8%8D%E7%AD%89%E5%BC%8F%E4%B8%8E%E6%9F%AF%E8%A5%BF%E4%B8%8D%E7%AD%89%E5%BC%8F.pdf">4平均值不等式与柯西不等式</a></h3>
+<h3 id="5不等式的解题方法与技巧"><a href="%E5%B0%8F%E8%93%9D%E6%9C%AC/%E9%AB%98%E4%B8%AD%E5%8D%B7/5%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E8%A7%A3%E9%A2%98%E6%96%B9%E6%B3%95%E4%B8%8E%E6%8A%80%E5%B7%A7.pdf">5不等式的解题方法与技巧</a></h3>
+<h3 id="6数列与数学归纳法"><a href="%E5%B0%8F%E8%93%9D%E6%9C%AC/%E9%AB%98%E4%B8%AD%E5%8D%B7/6%E6%95%B0%E5%88%97%E4%B8%8E%E6%95%B0%E5%AD%A6%E5%BD%92%E7%BA%B3%E6%B3%95.pdf">6数列与数学归纳法</a></h3>
+<h3 id="7平面几何"><a href="%E5%B0%8F%E8%93%9D%E6%9C%AC/%E9%AB%98%E4%B8%AD%E5%8D%B7/7%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95.pdf">7平面几何</a></h3>
+<h3 id="8复数与向量"><a href="%E5%B0%8F%E8%93%9D%E6%9C%AC/%E9%AB%98%E4%B8%AD%E5%8D%B7/8%E5%A4%8D%E6%95%B0%E4%B8%8E%E5%90%91%E9%87%8F.pdf">8复数与向量</a></h3>
+<h3 id="9几何不等式"><a href="%E5%B0%8F%E8%93%9D%E6%9C%AC/%E9%AB%98%E4%B8%AD%E5%8D%B7/9%E5%87%A0%E4%BD%95%E4%B8%8D%E7%AD%89%E5%BC%8F.pdf">9几何不等式</a></h3>
+<h3 id="10数论"><a href="%E5%B0%8F%E8%93%9D%E6%9C%AC/%E9%AB%98%E4%B8%AD%E5%8D%B7/10%E6%95%B0%E8%AE%BA.pdf">10数论</a></h3>
+<h3 id="11组合数学"><a href="%E5%B0%8F%E8%93%9D%E6%9C%AC/%E9%AB%98%E4%B8%AD%E5%8D%B7/11%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6.pdf">11组合数学</a></h3>
+<h3 id="12图论"><a href="%E5%B0%8F%E8%93%9D%E6%9C%AC/%E9%AB%98%E4%B8%AD%E5%8D%B7/12%E5%9B%BE%E8%AE%BA.pdf">12图论</a></h3>
+<h3 id="13组合极值"><a href="%E5%B0%8F%E8%93%9D%E6%9C%AC/%E9%AB%98%E4%B8%AD%E5%8D%B7/13%E7%BB%84%E5%90%88%E6%9E%81%E5%80%BC.pdf">13组合极值</a></h3>
+<h3 id="14高中数学竞赛中的解题方法与策略"><a href="%E5%B0%8F%E8%93%9D%E6%9C%AC/%E9%AB%98%E4%B8%AD%E5%8D%B7/14%E9%AB%98%E4%B8%AD%E6%95%B0%E5%AD%A6%E7%AB%9E%E8%B5%9B%E4%B8%AD%E7%9A%84%E8%A7%A3%E9%A2%98%E6%96%B9%E6%B3%95%E4%B8%8E%E7%AD%96%E7%95%A5.pdf">14高中数学竞赛中的解题方法与策略</a></h3>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JOI Day1 T1]]></title>
+        <id>https://oier-ty.github.io/qY0XCAI3f/</id>
+        <link href="https://oier-ty.github.io/qY0XCAI3f/">
+        </link>
+        <updated>2020-03-20T01:21:38.000Z</updated>
+        <content type="html"><![CDATA[<div id="docTranslationText" class="doc__translation--text fontzh-CHS" style="display: block;">
+<p><span></span><span><span data-id="1-0" class="run__con" style=""> </span><span data-id="1-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;font-weight:bold;">第19届日本信息学奥林匹克(JOI 209 /2020) </span></span></p>
+<p><span></span><span><span data-id="2-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-weight:bold;">2020年3月20-23日春训/资格赛(Komaba，东京) </span></span></p>
+<p><span></span><span><span data-id="3-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;font-weight:bold;">比赛第一天-建筑物4 </span></span></p>
+<p><span></span><span><span data-id="4-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:17.16px;color:#000000;font-weight:bold;">建设4 </span></span></p>
+<p><span></span><span><span data-id="5-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">奥林匹克运动会不久将在北京举行。 </span><span data-id="5-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">为了迎接来自世界各地的参与者，从机场到住宿的大楼将进行装饰。 </span><span data-id="5-2" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">机场有2N栋建筑，从1到2N编号。 </span></span></p>
+<p><span></span><span><span data-id="6-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">K总裁负责装修工程。 </span><span data-id="6-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">他要求公众制定装修计划。 </span><span data-id="6-2" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">经过仔细研究，他最终选择了两个方案，方案A和方案B。 </span><span data-id="6-3" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">在方案A中，建筑i(1≤i≤2N)的豪华等级为A。 </span><span data-id="6-4" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-style:italic;vertical-align:sub;"> </span><span data-id="6-5" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">在方案B中，建筑i(1≤i≤2N)的豪华等级为B。 </span><span data-id="6-6" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-style:italic;vertical-align:sub;"> </span></span></p>
+<p><span></span><span><span data-id="7-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">这两个计划都很好，很难从中选择一个。 </span><span data-id="7-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">他决定用下面的方式来装饰这些建筑:对于每一个建筑，A或B计划中的一个将会被选择。 </span><span data-id="7-2" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">为了使建筑得到公平的装饰，N栋建筑将选择方案a，剩下的N栋建筑将选择方案B。 </span><span data-id="7-3" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">此外,由于参与者将兴奋如果豪华水平正在提高,从机场到住宿的路上,应满足以下条件:C≤Cfor每个我1≤≤2 n−1,顺式建筑的豪华程度我(1≤≤2 n)。 </span><span data-id="7-4" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-style:italic;vertical-align:sub;"> </span><span data-id="7-5" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-style:italic;vertical-align:sub;"> </span><span data-id="7-6" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;vertical-align:sub;"> </span><span data-id="7-7" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-style:italic;vertical-align:sub;"> </span></span></p>
+<p><span></span><span><span data-id="8-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">编写一个程序，根据每个方案的建筑数量和建筑的豪华程度，决定是否可以选择满足上述条件的装修方案，并输出一种可能的装修方式。 </span></span></p>
+<p><span></span><span><span data-id="9-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:18.48px;color:#000000;">输入 </span></span></p>
+<p><span></span><span><span data-id="10-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;">从标准输入中读取以下数据。 </span><span data-id="10-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;">输入中的所有值都是整数。 </span></span></p>
+<p><span></span><span><span data-id="11-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;font-style:italic;">N </span></span></p>
+<p><span></span><span><span data-id="12-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-style:italic;">A··AB··B </span><span data-id="12-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;vertical-align:sub;"> </span><span data-id="12-2" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;vertical-align:sub;"> </span><span data-id="12-3" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-style:italic;vertical-align:sub;"> </span><span data-id="12-4" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;vertical-align:sub;"> </span></span></p>
+<p><span></span><span><span data-id="13-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:18.48px;color:#000000;">输出 </span></span></p>
+<p><span></span><span><span data-id="14-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;">如果无法选择满足条件的装饰方案，则输出-1到标准输出。 </span></span></p>
+<p><span></span><span><span data-id="15-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">否则，在标准输出中输出长度为2N的字符串S，该字符串描述一种装饰建筑物的方法。 </span><span data-id="15-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">这里S(1≤i≤2N)的第i个字符是A，如果A方案被选为建筑i，则为B，如果B方案被选为建筑i，则为B。 </span><span data-id="15-2" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">如果有多个方法满足条件，输出其中任何一个。 </span></span></p>
+<p><span></span><span><span data-id="16-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">建筑物4 - 1 / 3 </span></span></p>
+<p><span></span><span><span data-id="17-0" class="run__con" style=""><img src="http://tranpic.nos.netease.com/36B2A28778E14785B92875CD97659177-rId3" alt="" loading="lazy"> </span></span></p>
+<p><span></span><span><span data-id="18-0" class="run__con" style=""> </span><span data-id="18-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;font-weight:bold;">第19届日本信息学奥林匹克(JOI 209 /2020) </span></span></p>
+<p><span></span><span><span data-id="19-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;font-weight:bold;">春季训练营/资格赛 </span></span></p>
+<p><span></span><span><span data-id="20-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-weight:bold;">2020年3月20-23日(Komaba，东京 </span></span></p>
+<p><span></span><span><span data-id="21-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:18.48px;color:#000000;">约束 </span></span></p>
+<p><span></span><span><span data-id="22-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">•1≤N≤500000 </span></span></p>
+<p><span></span><span><span data-id="23-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">1≤A≤1 000 000 000(1≤i≤2N) </span><span data-id="23-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-style:italic;vertical-align:sub;"> </span></span></p>
+<p><span></span><span><span data-id="24-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">1≤B≤1 000 000 000(1≤i≤2N) </span><span data-id="24-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-style:italic;vertical-align:sub;"> </span></span></p>
+<p><span></span><span><span data-id="25-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:18.48px;color:#000000;">子任务 </span></span></p>
+<p><span></span><span><span data-id="26-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">1. </span><span data-id="26-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">(11分)N≤2000。 </span></span></p>
+<p><span></span><span><span data-id="27-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;">2. </span><span data-id="27-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;">(89分)无附加限制。 </span></span></p>
+<p><span></span><span><span data-id="28-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:18.48px;color:#000000;">样本输入和输出 </span></span></p>
+<div class="paragraph" data-id="29"><table class="table" style="display:show;border-insideV:1px solid #undefined;border-top:1px solid #undefined;border-left:1px solid #undefined;border-insideH:1px solid #undefined;border-bottom:1px solid #undefined;border-right:1px solid #undefined;"><tbody><tr><td style="width:50%;" colspan="1" rowspan="1">
+<p><span></span><span data-id="29-0-0-0" class="run__con">示例输入1</span></p>
+</td><td style="width:50%;" colspan="1" rowspan="1">
+<p><span></span><span data-id="29-0-1-0" class="run__con">样例输出1</span></p>
+</td></tr><tr><td style="width:50%;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="29-1-0-0" class="run__con">3.</span></p>
+</td><td style="width:50%;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="29-1-1-0" class="run__con">AABABB</span></p>
+</td></tr><tr><td style="width:50%;border-top:none;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="29-2-0-0" class="run__con">2 5 4 9 15 11</span></p>
+</td><td style="width:50%;border-top:none;border-bottom:none;" colspan="1" rowspan="1"></td></tr><tr><td style="width:50%;border-top:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="29-3-0-0" class="run__con">6 7 6 8 12 14</span></p>
+</td><td style="width:50%;border-top:none;" colspan="1" rowspan="1"></td></tr></tbody></table></div>
+<p><span></span><span><span data-id="30-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">分别为每个建筑选择A、A、B、A、B、B方案。 </span><span data-id="30-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">然后方案A和方案B都选三次。 </span><span data-id="30-2" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">每栋建筑的豪华程度分别为2、5、6、9、12、14。 </span><span data-id="30-3" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">条件满足。 </span></span></p>
+<div class="paragraph" data-id="31"><table class="table" style="display:show;border-insideV:1px solid #undefined;border-top:1px solid #undefined;border-left:1px solid #undefined;border-insideH:1px solid #undefined;border-bottom:1px solid #undefined;border-right:1px solid #undefined;"><tbody><tr><td style="width:50%;" colspan="1" rowspan="1">
+<p><span></span><span data-id="31-0-0-0" class="run__con">示例输入2</span></p>
+</td><td style="width:50%;" colspan="1" rowspan="1">
+<p><span></span><span data-id="31-0-1-0" class="run__con">样例输出2</span></p>
+</td></tr><tr><td style="width:50%;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="31-1-0-0" class="run__con">2</span></p>
+</td><td style="width:50%;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="31-1-1-0" class="run__con">BBAA</span></p>
+</td></tr><tr><td style="width:50%;border-top:none;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="31-2-0-0" class="run__con">1 4 10 20</span></p>
+</td><td style="width:50%;border-top:none;border-bottom:none;" colspan="1" rowspan="1"></td></tr><tr><td style="width:50%;border-top:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="31-3-0-0" class="run__con">3 5 8 13</span></p>
+</td><td style="width:50%;border-top:none;" colspan="1" rowspan="1"></td></tr></tbody></table></div>
+<p><span></span><span><span data-id="32-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">如果满足条件的建筑物有多种装饰方式，您的程序可以输出其中的任何一种。 </span></span></p>
+<div class="paragraph" data-id="33"><table class="table" style="display:show;border-insideV:1px solid #undefined;border-top:1px solid #undefined;border-left:1px solid #undefined;border-insideH:1px solid #undefined;border-bottom:1px solid #undefined;border-right:1px solid #undefined;"><tbody><tr><td style="width:50%;" colspan="1" rowspan="1">
+<p><span></span><span data-id="33-0-0-0" class="run__con">示例输入3</span></p>
+</td><td style="width:50%;" colspan="1" rowspan="1">
+<p><span></span><span data-id="33-0-1-0" class="run__con">样例输出3</span></p>
+</td></tr><tr><td style="width:50%;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="33-1-0-0" class="run__con">2</span></p>
+</td><td style="width:50%;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="33-1-1-0" class="run__con">1</span></p>
+</td></tr><tr><td style="width:50%;border-top:none;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="33-2-0-0" class="run__con">3 4 5 6</span></p>
+</td><td style="width:50%;border-top:none;border-bottom:none;" colspan="1" rowspan="1"></td></tr><tr><td style="width:50%;border-top:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="33-3-0-0" class="run__con">10 9 8 7</span></p>
+</td><td style="width:50%;border-top:none;" colspan="1" rowspan="1"></td></tr></tbody></table></div>
+<p><span></span><span><span data-id="34-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:13.200000000000001px;color:#000000;">由于无法选择满足条件的装饰方案，所以输出-1。 </span></span></p>
+<p><span></span><span><span data-id="35-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">建筑物4 - 2 / 3 </span></span></p>
+<p><span></span><span><span data-id="36-0" class="run__con" style=""><img src="http://tranpic.nos.netease.com/36B2A28778E14785B92875CD97659177-rId3" alt="" loading="lazy"> </span></span></p>
+<p><span></span><span><span data-id="37-0" class="run__con" style=""> </span><span data-id="37-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;font-weight:bold;">第19届日本信息学奥林匹克(JOI 209 /2020) </span></span></p>
+<p><span></span><span><span data-id="38-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;font-weight:bold;">春季训练营/资格赛 </span></span></p>
+<p><span></span><span><span data-id="39-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-weight:bold;">2020年3月20-23日(Komaba，东京 </span></span></p>
+<div class="paragraph" data-id="40"><table class="table" style="display:show;border-insideV:1px solid #undefined;border-top:1px solid #undefined;border-left:1px solid #undefined;border-insideH:1px solid #undefined;border-bottom:1px solid #undefined;border-right:1px solid #undefined;"><tbody><tr><td style="width:57%;" colspan="1" rowspan="1">
+<p><span></span><span data-id="40-0-0-0" class="run__con">示例输入4</span></p>
+</td><td style="width:43%;" colspan="1" rowspan="1">
+<p><span></span><span data-id="40-0-1-0" class="run__con">样例输出4</span></p>
+</td></tr><tr><td style="width:57%;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="40-1-0-0" class="run__con">6</span></p>
+</td><td style="width:43%;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="40-1-1-0" class="run__con">BABBABAABABA</span></p>
+</td></tr><tr><td style="width:57%;border-top:none;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="40-2-0-0" class="run__con">25 18 40 37 29 95 41 53 39 69 61 90</span></p>
+</td><td style="width:43%;border-top:none;border-bottom:none;" colspan="1" rowspan="1"></td></tr><tr><td style="width:57%;border-top:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="40-3-0-0" class="run__con">14 18 22 28 18 30 32 32 63 58 71 78</span></p>
+</td><td style="width:43%;border-top:none;" colspan="1" rowspan="1"></td></tr></tbody></table></div>
+<p><span></span><span><span data-id="41-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">建筑物4 - 3 / 3 </span></span></p>
+</div>]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[2020 NOI online 游记]]></title>
-        <id>https://oierty.github.io/qvE9TvwC-/</id>
-        <link href="https://oierty.github.io/qvE9TvwC-/">
+        <id>https://oier-ty.github.io/qvE9TvwC-/</id>
+        <link href="https://oier-ty.github.io/qvE9TvwC-/">
         </link>
         <updated>2020-03-10T02:57:51.000Z</updated>
-        <content type="html"><![CDATA[<p>3月7日下午，NOI online入门组在2:30开始了。</p>
-<p>然而，ZJ以及全国多地的网站都在2:35左右就死亡了，于是，CCF在3:10的时候，把这些网站的源代码植入到了其他网站之中。</p>
-<p>仅仅两分钟后，这些诈尸了的网站大部分又死了，ZJ及多省的考生等啊等，大家都说，再给我一次机会考试吧（炸网站吧）。</p>
-<p>三个小时以后，很多地方已经考完了，ZJ考生决定拿个枕头放电脑前（其实是把电脑放床上啦），CCF又移植了一个土豆服务器，两分钟后，又炸完了，ZJ考生纷纷表示，如果CCF不搞个好些的服务器，ZJ考生人均爆零。于是，在CCF土豆服务器死亡５个小时以后，CCF把官网的子域名拿来用，终于，疲惫不堪的考生们又敲起了键盘，大家表示新服务器的流畅超乎想象（虽然中间还是炸过），于是考生就奋战到了23:30。</p>
-<p>第一次国内比赛熬夜祭！</p>
+        <content type="html"><![CDATA[<h2 id="游记">游记</h2>
+<pre><code>3月7日下午，NOI online入门组在2:30开始了。
+
+然而，ZJ以及全国多地的网站都在2:35左右就死亡了，于是，CCF在3:10的时候，把这些网站的源代码植入到了其他网站之中。
+
+仅仅两分钟后，这些诈尸了的网站大部分又死了，ZJ及多省的考生等啊等，大家都说，再给我一次机会考试吧（炸网站吧）。
+
+三个小时以后，很多地方已经考完了，ZJ考生决定拿个枕头放电脑前（其实是把电脑放床上啦），CCF又移植了一个土豆服务器，两分钟后，又炸完了，ZJ考生纷纷表示，如果CCF不搞个好些的服务器，ZJ考生人均爆零。于是，在CCF土豆服务器死亡５个小时以后，CCF把官网的子域名拿来用，终于，疲惫不堪的考生们又敲起了键盘，大家表示新服务器的流畅超乎想象（虽然中间还是炸过），于是考生就奋战到了23:30。
+
+第一次国内比赛熬夜祭！
+</code></pre>
 <p>入门组难度，洛谷评分：</p>
 <p>T1:<span data-v-20b7d558="" data-v-5d8b465a="" class="lfe-caption" data-v-445f91a0="" style="background: rgb(255, 193, 22); color: rgb(255, 255, 255);">  普及/提高-</span></p>
 <p>T2:<span data-v-20b7d558="" data-v-5d8b465a="" class="lfe-caption" data-v-445f91a0="" style="background: rgb(157, 61, 207); color: rgb(255, 255, 255);">省选/NOI-</span></p>
@@ -148,6 +302,8 @@ int main()
 <p><em>C++</em>  <em>AC</em>  <em>code:</em></p>
 <pre><code class="language-cpp">#include&lt;bits/stdc++.h&gt;
 using namespace std;
+int n,m;
+int a[28][3]={{0},{-1},{-1},{1},{0,1},{-1},{2},{1,1},{0,2},{3},{2,1},{1,2},{4},{3,1},{0},{5},{4,1},{2,1,1},{1,2,1},{5,1},{3,1,1},{2,2,1},{1,3,1},{4,1,1},{3,2,1},{2,3,1},{5,1,1},{4,2,1}};//打表
 int main() {
 	freopen(&quot;order.in&quot;,&quot;r&quot;,stdin);
 	freopen(&quot;order.out&quot;,&quot;w&quot;,stdout);//文件输入输出流
@@ -163,13 +319,14 @@ int main() {
 	return 0;//函数返回0
 }
 </code></pre>
-<figure data-type="image" tabindex="1"><img src="https://oierty.github.io/post-images/1584257407093.png" alt="" loading="lazy"></figure>
+<p><img src="https://oier-ty.github.io/post-images/1584257407093.png" alt="" loading="lazy"><br>
+未完待续……</p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[【Codeforces】题解 CF401C 【Team】]]></title>
-        <id>https://oierty.github.io/solution-CF401C/</id>
-        <link href="https://oierty.github.io/solution-CF401C/">
+        <id>https://oier-ty.github.io/solution-CF401C/</id>
+        <link href="https://oier-ty.github.io/solution-CF401C/">
         </link>
         <updated>2020-03-01T12:16:53.000Z</updated>
         <content type="html"><![CDATA[<h2 id="cf401cteam"><a href="https://www.luogu.com.cn/problem/CF401C">CF401C【Team】</a></h2>
@@ -201,7 +358,7 @@ int main(){
 	return 0;
 }
 </code></pre>
-<figure data-type="image" tabindex="1"><img src="https://oierty.github.io/post-images/1584257407093.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://oier-ty.github.io/post-images/1584257407093.png" alt="" loading="lazy"></figure>
 <h2 id="洛谷原文"><a href="https://www.luogu.com.cn/blog/tangye123/solution-cf401c">洛谷原文</a></h2>
 <blockquote>
 <p>声明：<br>
@@ -212,21 +369,22 @@ int main(){
     </entry>
     <entry>
         <title type="html"><![CDATA[声明]]></title>
-        <id>https://oierty.github.io/statement/</id>
-        <link href="https://oierty.github.io/statement/">
+        <id>https://oier-ty.github.io/statement/</id>
+        <link href="https://oier-ty.github.io/statement/">
         </link>
         <updated>2020-03-01T11:55:19.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
 <p>声明：<br>
 未提前声明时，本网站任何部分（包括但不限于文字、图片）转载需注明出处<br>
-谢谢配合</p>
+谢谢配合<br>
+<video controls="" autoplay="" name="media"><source src="https://oierty.gitee.io/Music/%E5%8D%9A%E4%B8%BB%E5%A3%B0%E6%98%8E.mp3" type="audio/mpeg"></video></p>
 </blockquote>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[浅谈__int128]]></title>
-        <id>https://oierty.github.io/int128/</id>
-        <link href="https://oierty.github.io/int128/">
+        <id>https://oier-ty.github.io/int128/</id>
+        <link href="https://oier-ty.github.io/int128/">
         </link>
         <updated>2020-02-29T01:16:45.000Z</updated>
         <content type="html"><![CDATA[<p>很多时候，题目的数据范围刚好卡在long long的临界范围，经过多次运算后，最后答案就有可能会爆（例如P6101 出言不逊）。</p>
@@ -332,8 +490,8 @@ int main(){
     </entry>
     <entry>
         <title type="html"><![CDATA[游戏]]></title>
-        <id>https://oierty.github.io/game/</id>
-        <link href="https://oierty.github.io/game/">
+        <id>https://oier-ty.github.io/game/</id>
+        <link href="https://oier-ty.github.io/game/">
         </link>
         <updated>2020-02-29T01:14:58.000Z</updated>
         <content type="html"><![CDATA[<h3 id="一大波闲的无聊的游戏冲击"><strong>一大波闲的无聊的游戏冲击：</strong></h3>
@@ -347,8 +505,8 @@ int main(){
     </entry>
     <entry>
         <title type="html"><![CDATA[【洛谷】题解P1706【全排列问题】]]></title>
-        <id>https://oierty.github.io/solution-P1706/</id>
-        <link href="https://oierty.github.io/solution-P1706/">
+        <id>https://oier-ty.github.io/solution-P1706/</id>
+        <link href="https://oier-ty.github.io/solution-P1706/">
         </link>
         <updated>2020-02-29T00:55:04.000Z</updated>
         <content type="html"><![CDATA[<h2 id="洛谷p1706全排列问题"><a href="https://www.luogu.com.cn/problem/P1706">【洛谷】P1706【全排列问题】</a></h2>
@@ -376,7 +534,7 @@ int main(){
 }
 </code></pre>
 <p>就这么回事了<br>
-<img src="https://oierty.github.io/post-images/1584257407093.png" alt="" loading="lazy"></p>
+<img src="https://oier-ty.github.io/post-images/1584257407093.png" alt="" loading="lazy"></p>
 <h2 id="洛谷原文"><a href="https://www.luogu.com.cn/blog/tangye123/solution-p1706">洛谷原文</a></h2>
 <blockquote>
 <p>声明：<br>
@@ -387,8 +545,8 @@ int main(){
     </entry>
     <entry>
         <title type="html"><![CDATA[【洛谷】题解 P1090 【合并果子】]]></title>
-        <id>https://oierty.github.io/solution-P1090/</id>
-        <link href="https://oierty.github.io/solution-P1090/">
+        <id>https://oier-ty.github.io/solution-P1090/</id>
+        <link href="https://oier-ty.github.io/solution-P1090/">
         </link>
         <updated>2020-02-29T00:05:14.000Z</updated>
         <content type="html"><![CDATA[<h2 id="洛谷p1090合并果子"><a href="https://www.luogu.com.cn/problem/P1090">【洛谷】P1090【合并果子】</a></h2>
@@ -419,205 +577,13 @@ int main(){
     	return 0;
     }
 </code></pre>
-<figure data-type="image" tabindex="1"><img src="https://oierty.github.io/post-images/1584257407093.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://oier-ty.github.io/post-images/1584257407093.png" alt="" loading="lazy"></figure>
 <h2 id="洛谷原文"><a href="https://www.luogu.com.cn/blog/tangye123/solution-p1090">洛谷原文</a></h2>
 <blockquote>
 <p>声明：<br>
 未提前声明时，本网站任何部分转载需注明出处<br>
 谢谢配合</p>
 </blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[导读]]></title>
-        <id>https://oierty.github.io/contents/</id>
-        <link href="https://oierty.github.io/contents/">
-        </link>
-        <updated>2020-02-28T10:49:09.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="题解"><a href="https://oierty.github.io/solution">题解</a></h2>
-<h2 id="关于"><a href="https://oierty.github.io/about-me">关于</a></h2>
-<h3 id="不定期更新ing">不定期更新ing</h3>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[主页]]></title>
-        <id>https://oierty.github.io/home/</id>
-        <link href="https://oierty.github.io/home/">
-        </link>
-        <updated>2020-02-26T16:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="此人太菜">此人太菜</h1>
-<h2 id="文化课菜">文化课菜</h2>
-<h3 id="语文菜">语文菜</h3>
-<h3 id="数学菜">数学菜</h3>
-<h3 id="英语菜">英语菜</h3>
-<h3 id="科学菜">科学菜</h3>
-<blockquote>
-<p>生物物理化学菜</p>
-</blockquote>
-<h3 id="综合菜">综合菜</h3>
-<blockquote>
-<p>社会历史地理政治道德法治样样都菜</p>
-</blockquote>
-<h2 id="编程太菜">编程太菜</h2>
-<p>才上初一</p>
-<p>已经就要被被小学生虐的初一虐了</p>
-<p>本蒟蒻的CF号：<br>
-<a href="https://codeforces.com/profile/jvruo_ty"><img src="https://img.shields.io/badge/jvruo_ty-Pupil%20%201337-00aa22.svg?longCache=true&amp;style=flat&amp;logo=Codeforces&amp;link=https://codeforces.com/profile/jvruo_ty" alt="" loading="lazy"></a></p>
-<hr>
-<h1 id="洛谷日报索引">洛谷日报索引：</h1>
-<h2 id="2018年"><a href="https://www.luogu.com.cn/discuss/show/48491">2018年</a></h2>
-<h2 id="2019年"><a href="https://www.luogu.com.cn/discuss/show/92685">2019年</a></h2>
-<h2 id="2020年"><a href="https://www.luogu.com.cn/discuss/show/179788">2020年</a></h2>
-<h1 id="以下并非正事">以下并非正事</h1>
-<pre><code>暴力出奇迹，骗分过样例。
-数学先打表，ＤＰ靠运气。
-穷举ＴＬＥ，递推ＵＫＥ。
-模拟ＭＬＥ，贪心还ＣＥ。
-要想骗到分，就要有方法。
-图论背模板，数论背公式。
-动规背方程，高精背代码。
-如果都没背，干脆输样例。
-模拟只会猜题意,贪心只能过样例,
-数学上来先打表,动态一般看规律。
-组合数学靠运气,计算几何瞎暴力,
-图论一顿套模板,数论只会GCD。
-</code></pre>
-<p><img src="https://cdn.luogu.com.cn/upload/pic/15422.png" alt="" loading="lazy"><br>
-<img src="http://wx4.sinaimg.cn/mw690/0060lm7Tly1fsak5rti8zg306y06y45f.gif" alt="" loading="lazy"></p>
-<figure data-type="image" tabindex="1"><img src="http://wx2.sinaimg.cn/mw690/0060lm7Tly1fsak77zbuog30ic0c8dk7.gif" alt="本人水平" loading="lazy"></figure>
-<figure data-type="image" tabindex="2"><img src="https://s1.ax1x.com/2018/04/04/C9AddU.gif" alt="" loading="lazy"></figure>
-<h4 id="如果说">如果说</h4>
-<pre><code>AC: Answer Correct 正确的答案
-CE：Compile Easily 轻松地通过编译
-PC：Pass Compile 通过编译
-WA：Wonderful Answer 极好的答案
-RE：Right Enough 太过正确
-TLE: Time Limit Enough 时间充裕
-MLE: Memory Limit Enough 内存充裕
-OLE：Output Limit Enough 输出充裕
-UKE: Unknown Exactness 不明情况地正确
-</code></pre>
-<h4 id="就好了">就好了</h4>
-<pre><code>膜你抄
-屏幕在深夜微微发亮
-思想在那虚树路径上彷徨
-平面的向量交错生长
-织成 忧伤的网
-剪枝剪去我们的疯狂
-SPFA告诉我前途在何方
-01背包装下了忧伤
-笑颜 洋溢脸庞
-键盘微凉 鼠标微凉
-指尖流淌 代码千行
-凸包周长 直径多长
-一进考场 全都忘光
-你在OJ上提交了千百遍
-却依然不能卡进那时限
-双手敲尽代码也敲尽岁月
-只有我一人 写的题解
-凋零在OJ里面
-tarjan陪伴强联通分量
-生成树完成后思路才闪光
-欧拉跑过的七桥古塘
-让你 心驰神往
-队列进出图上的方向
-线段树区间修改求出总量
-可持久留下的迹象
-我们 俯身欣赏
-数论算法 图论算法
-高斯费马 树上开花
-线性规划 动态规划
-时间爆炸 如何优化
-我在OI中辗转了千百天
-却不让我看AK最后一眼
-我用空间换回超限的时间
-随重新编译 测完样例
-才发现漏洞满篇
-原来CE 是因选错语言
-其实爆0 只因忘写文件
-如果标算太难请坚定信念
-不如回头再看一眼题面
-以那暴力模拟向正解吊唁
-蒟蒻的蜕变 神犇出现
-终将与Au擦肩
-屏幕在深夜微微发亮
-我心在考场
-</code></pre>
-<pre><code>刷题是一种出路 枚举是一种思想
-打表是一种勇气 搜索是一种信仰
-剪枝是一种精神 骗分是一种日常
-爆零是一种宿命 WA是一种绝望
-TLE是一种痛苦 RE是一种放弃
-UKE是一种无奈 AC是一种原谅
-AK是一种幻想 弃赛是一种颓废
-吊打是一种必然 进队是一种奢望
-NOI是一种梦想
-</code></pre>
-<pre><code>这里是洛谷 现在面向全球各国的Oier们做最后播报 
-在过去的三十六小时里 Oier们经历了有史以来最大的刷题危机 
-在全球各国一百五十万教练的拼搏与催促下 71％的初中Oier和100％高中Oier开始全功率刷题 
-但遗憾的是目前的OI题量 已经超过全部Oier的总做题功率
-Oier错失了最后的做完题目机会 为了Oier文明之延续 
-kkksc03将启动火种计划 洛谷储藏了三十万本Oier书和一亿道题目，
-储存着全球已知的神犇名字 并设有全部Oier文明的数字资料库 
-以确保在新的OJ网站重建完整的OI文明 你们都是洛谷的英雄 我们谨记于心 
-以你们为荣 我们将肩负着你们全部的希望 
-A掉所有的黑题
-</code></pre>
-<pre><code>树剖村庄，七桥古塘。写程序、豪兴徜徉。OJ几许，收尽春光。有WA红，RE紫，CE黄。
-平面向量，凸包周长。扬队列、最短路傍。偶然刷题，入洛谷冈。正dp啼，贪心舞，搜索忙。
-</code></pre>
-<pre><code>怒发冲冠，凭栏处、潇潇雨歇。抬望眼，满天WA，怒火激烈。三十AC尘与土，八千提交云和月。莫抄袭、没了AC记录，空悲切！
-
-CE耻，犹未雪。蒟蒻恨，何时灭！驾程序，踏破题目列表。闭眼写出省选题，笑谈猛刷NOI。待从头、收拾A+B，朝天阙。
-</code></pre>
-<pre><code>AC几时有，把题问OJ。
-不知记录之中，WA占几篇。 
-我欲暴力归去，又恐超时爆零，水题不胜刷。
-起舞切黑题，何似在人间！
-</code></pre>
-<pre><code>江城子·高数
-拿到试卷透心凉,一紧张,公式忘,似曾相识,解法却不详,曲线几何两茫茫,看数列,泪千行。
-两小时后出考场,见同窗,共悲伤,如此成绩,无脸见爹娘,待到老师发卷日,去坟场,饮砒霜。
-</code></pre>
-<pre><code>江城子·挂科
-一夜复习两茫茫，看一句，忘三行，路遇友人，脸色皆凄凉，视死如归入考场，心里慌，手中忙。
-考完之后心凉凉，左右曰，今必亡，查成绩，众人皆过我独亡，再顾昔时左右人，这一群，装逼郎。
-</code></pre>
-<blockquote>
-<p>声明：<br>
-未提前声明时，本网站任何部分转载需注明出处<br>
-谢谢配合</p>
-</blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[关于]]></title>
-        <id>https://oierty.github.io/about/</id>
-        <link href="https://oierty.github.io/about/">
-        </link>
-        <updated>2020-02-24T16:00:00.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<h3 id="友链"><strong>友链：</strong></h3>
-<p><a href="https://www.luogu.com.cn/user/231169">大佬Lattle_car【洛谷】</a></p>
-<p><a href="https://oierscw.github.io">Lattle_car</a></p>
-<h3 id="个人"><strong>个人：</strong></h3>
-<p><a href="https://www.luogu.com.cn/user/220678">我自己这个蒟蒻【洛谷】</a></p>
-<p><a href="https://www.luogu.com.cn/blog/tangye123/">洛谷博客</a></p>
-<h3 id="我个人网站均会不定期更新"><strong>我个人网站均会不定期更新</strong></h3>
-<p>👨‍💻 博主是谁</p>
-<p>一个死在文化课上的OIer，现就读于NBFLS。</p>
-<p>⛹ 兴趣爱好</p>
-<p>编程、围棋、数学、物理、化学、刷QQ。</p>
-<p>📬 联系我呀</p>
-<figure data-type="image" tabindex="1"><img src="https://ipcounter.ihcr.top/?mode=2&amp;mail=3290465230@qq.com&amp;qq=3290465230&amp;gh=OIerty&amp;lg=OIer_ty&amp;pic=Chtholly" alt="" loading="lazy"></figure>
-<h3 id="没动过的cf号"><strong>没动过的CF号：</strong></h3>
-<figure data-type="image" tabindex="2"><a href="https://codeforces.com/profile/OIer_ty"><img src="https://img.shields.io/badge/OIer_ty-Unrated%20%200-808080.svg?longCache=true&amp;style=for-the-badge&amp;logo=Codeforces&amp;link=https://codeforces.com/profile/OIer_ty" alt="" loading="lazy"></a></figure>
-<h3 id="动过的cf号"><strong>动过的CF号：</strong></h3>
-<figure data-type="image" tabindex="3"><a href="https://codeforces.com/profile/jvruo_ty"><img src="https://img.shields.io/badge/jvruo_ty-pupil%20%201337-009940.svg?longCache=true&amp;style=for-the-badge&amp;logo=Codeforces&amp;link=https://codeforces.com/profile/jvruo_ty" alt="" loading="lazy"></a></figure>
 ]]></content>
     </entry>
 </feed>

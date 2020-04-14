@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OIer Tang Ye&#39;s Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
+    <link rel="stylesheet" href="/media/css/post.css">
+    <link rel="stylesheet" href="/media/live2d/css/live2d.css" />
+    
+</head>
+<body class=" mdui-appbar-with-toolbar  mdui-theme-primary-pink mdui-theme-accent-pink">
+<header class="mdui-toolbar mdui-color-pink mdui-appbar-fixed mdui-appbar-scroll-toolbar-hide" style="z-index: 1000">
+    <a href="javascript:;" mdui-drawer="{target: '#left-drawer',overlay:true}" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
+    <span class="mdui-typo-title">OIer Tang Ye&#39;s Blog</span>
+    <div class="mdui-toolbar-spacer"></div>
+<!--    <a href="javascript:history.go(0);" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
+    <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
+</header>
+
+<div class="mdui-drawer mdui-color-white mdui-drawer-full-height mdui-drawer-close" id="left-drawer">
+    <ul class="mdui-list">
+        <li class="mdui-subheader">菜单</li>
+        
+        <li class="mdui-list-item mdui-ripple">
+            <a href="/" class="mdui-list-item-content">首页</a>
+        </li>
+        
+        <li class="mdui-list-item mdui-ripple">
+            <a href="/archives" class="mdui-list-item-content">归档</a>
+        </li>
+        
+        <li class="mdui-list-item mdui-ripple">
+            <a href="https://www.luogu.com.cn/user/220678" class="mdui-list-item-content">洛谷</a>
+        </li>
+        
+        <li class="mdui-list-item mdui-ripple">
+            <a href="/contents" class="mdui-list-item-content">目录</a>
+        </li>
+        
+        <li class="mdui-list-item mdui-ripple">
+            <a href="/tags" class="mdui-list-item-content">标签</a>
+        </li>
+        
+        <li class="mdui-list-item mdui-ripple">
+            <a href="/about" class="mdui-list-item-content">关于</a>
+        </li>
+        
+        <li class="mdui-list-item mdui-ripple">
+            <a href="/solution" class="mdui-list-item-content">题解</a>
+        </li>
+        
+    </ul>
+</div>
+
+<div id="content" class="site-content">
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+            <article id="post-1270" class="post-1270 post type-post status-publish format-standard hentry category-90 category-129 tag-149">
+                <header class="entry-header">
+                    <h1 class="entry-title">JOI Day1 T1</h1>
+                    <p class="entry-census">发布于 2020-03-20</p>
+                    <hr>
+                </header>
+                <div class="neko">
+                    <div id="docTranslationText" class="doc__translation--text fontzh-CHS" style="display: block;">
+<p><span></span><span><span data-id="1-0" class="run__con" style=""> </span><span data-id="1-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;font-weight:bold;">第19届日本信息学奥林匹克(JOI 209 /2020) </span></span></p>
+<p><span></span><span><span data-id="2-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-weight:bold;">2020年3月20-23日春训/资格赛(Komaba，东京) </span></span></p>
+<p><span></span><span><span data-id="3-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;font-weight:bold;">比赛第一天-建筑物4 </span></span></p>
+<p><span></span><span><span data-id="4-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:17.16px;color:#000000;font-weight:bold;">建设4 </span></span></p>
+<p><span></span><span><span data-id="5-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">奥林匹克运动会不久将在北京举行。 </span><span data-id="5-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">为了迎接来自世界各地的参与者，从机场到住宿的大楼将进行装饰。 </span><span data-id="5-2" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">机场有2N栋建筑，从1到2N编号。 </span></span></p>
+<p><span></span><span><span data-id="6-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">K总裁负责装修工程。 </span><span data-id="6-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">他要求公众制定装修计划。 </span><span data-id="6-2" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">经过仔细研究，他最终选择了两个方案，方案A和方案B。 </span><span data-id="6-3" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">在方案A中，建筑i(1≤i≤2N)的豪华等级为A。 </span><span data-id="6-4" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-style:italic;vertical-align:sub;"> </span><span data-id="6-5" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">在方案B中，建筑i(1≤i≤2N)的豪华等级为B。 </span><span data-id="6-6" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-style:italic;vertical-align:sub;"> </span></span></p>
+<p><span></span><span><span data-id="7-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">这两个计划都很好，很难从中选择一个。 </span><span data-id="7-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">他决定用下面的方式来装饰这些建筑:对于每一个建筑，A或B计划中的一个将会被选择。 </span><span data-id="7-2" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">为了使建筑得到公平的装饰，N栋建筑将选择方案a，剩下的N栋建筑将选择方案B。 </span><span data-id="7-3" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">此外,由于参与者将兴奋如果豪华水平正在提高,从机场到住宿的路上,应满足以下条件:C≤Cfor每个我1≤≤2 n−1,顺式建筑的豪华程度我(1≤≤2 n)。 </span><span data-id="7-4" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-style:italic;vertical-align:sub;"> </span><span data-id="7-5" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-style:italic;vertical-align:sub;"> </span><span data-id="7-6" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;vertical-align:sub;"> </span><span data-id="7-7" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-style:italic;vertical-align:sub;"> </span></span></p>
+<p><span></span><span><span data-id="8-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">编写一个程序，根据每个方案的建筑数量和建筑的豪华程度，决定是否可以选择满足上述条件的装修方案，并输出一种可能的装修方式。 </span></span></p>
+<p><span></span><span><span data-id="9-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:18.48px;color:#000000;">输入 </span></span></p>
+<p><span></span><span><span data-id="10-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;">从标准输入中读取以下数据。 </span><span data-id="10-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;">输入中的所有值都是整数。 </span></span></p>
+<p><span></span><span><span data-id="11-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;font-style:italic;">N </span></span></p>
+<p><span></span><span><span data-id="12-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-style:italic;">A··AB··B </span><span data-id="12-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;vertical-align:sub;"> </span><span data-id="12-2" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;vertical-align:sub;"> </span><span data-id="12-3" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-style:italic;vertical-align:sub;"> </span><span data-id="12-4" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;vertical-align:sub;"> </span></span></p>
+<p><span></span><span><span data-id="13-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:18.48px;color:#000000;">输出 </span></span></p>
+<p><span></span><span><span data-id="14-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;">如果无法选择满足条件的装饰方案，则输出-1到标准输出。 </span></span></p>
+<p><span></span><span><span data-id="15-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">否则，在标准输出中输出长度为2N的字符串S，该字符串描述一种装饰建筑物的方法。 </span><span data-id="15-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">这里S(1≤i≤2N)的第i个字符是A，如果A方案被选为建筑i，则为B，如果B方案被选为建筑i，则为B。 </span><span data-id="15-2" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">如果有多个方法满足条件，输出其中任何一个。 </span></span></p>
+<p><span></span><span><span data-id="16-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">建筑物4 - 1 / 3 </span></span></p>
+<p><span></span><span><span data-id="17-0" class="run__con" style=""><img src="http://tranpic.nos.netease.com/36B2A28778E14785B92875CD97659177-rId3" alt="" loading="lazy"> </span></span></p>
+<p><span></span><span><span data-id="18-0" class="run__con" style=""> </span><span data-id="18-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;font-weight:bold;">第19届日本信息学奥林匹克(JOI 209 /2020) </span></span></p>
+<p><span></span><span><span data-id="19-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;font-weight:bold;">春季训练营/资格赛 </span></span></p>
+<p><span></span><span><span data-id="20-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-weight:bold;">2020年3月20-23日(Komaba，东京 </span></span></p>
+<p><span></span><span><span data-id="21-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:18.48px;color:#000000;">约束 </span></span></p>
+<p><span></span><span><span data-id="22-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">•1≤N≤500000 </span></span></p>
+<p><span></span><span><span data-id="23-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">1≤A≤1 000 000 000(1≤i≤2N) </span><span data-id="23-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-style:italic;vertical-align:sub;"> </span></span></p>
+<p><span></span><span><span data-id="24-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">1≤B≤1 000 000 000(1≤i≤2N) </span><span data-id="24-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-style:italic;vertical-align:sub;"> </span></span></p>
+<p><span></span><span><span data-id="25-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:18.48px;color:#000000;">子任务 </span></span></p>
+<p><span></span><span><span data-id="26-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">1. </span><span data-id="26-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">(11分)N≤2000。 </span></span></p>
+<p><span></span><span><span data-id="27-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;">2. </span><span data-id="27-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;">(89分)无附加限制。 </span></span></p>
+<p><span></span><span><span data-id="28-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:18.48px;color:#000000;">样本输入和输出 </span></span></p>
+<div class="paragraph" data-id="29"><table class="table" style="display:show;border-insideV:1px solid #undefined;border-top:1px solid #undefined;border-left:1px solid #undefined;border-insideH:1px solid #undefined;border-bottom:1px solid #undefined;border-right:1px solid #undefined;"><tbody><tr><td style="width:50%;" colspan="1" rowspan="1">
+<p><span></span><span data-id="29-0-0-0" class="run__con">示例输入1</span></p>
+</td><td style="width:50%;" colspan="1" rowspan="1">
+<p><span></span><span data-id="29-0-1-0" class="run__con">样例输出1</span></p>
+</td></tr><tr><td style="width:50%;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="29-1-0-0" class="run__con">3.</span></p>
+</td><td style="width:50%;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="29-1-1-0" class="run__con">AABABB</span></p>
+</td></tr><tr><td style="width:50%;border-top:none;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="29-2-0-0" class="run__con">2 5 4 9 15 11</span></p>
+</td><td style="width:50%;border-top:none;border-bottom:none;" colspan="1" rowspan="1"></td></tr><tr><td style="width:50%;border-top:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="29-3-0-0" class="run__con">6 7 6 8 12 14</span></p>
+</td><td style="width:50%;border-top:none;" colspan="1" rowspan="1"></td></tr></tbody></table></div>
+<p><span></span><span><span data-id="30-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">分别为每个建筑选择A、A、B、A、B、B方案。 </span><span data-id="30-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">然后方案A和方案B都选三次。 </span><span data-id="30-2" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">每栋建筑的豪华程度分别为2、5、6、9、12、14。 </span><span data-id="30-3" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">条件满足。 </span></span></p>
+<div class="paragraph" data-id="31"><table class="table" style="display:show;border-insideV:1px solid #undefined;border-top:1px solid #undefined;border-left:1px solid #undefined;border-insideH:1px solid #undefined;border-bottom:1px solid #undefined;border-right:1px solid #undefined;"><tbody><tr><td style="width:50%;" colspan="1" rowspan="1">
+<p><span></span><span data-id="31-0-0-0" class="run__con">示例输入2</span></p>
+</td><td style="width:50%;" colspan="1" rowspan="1">
+<p><span></span><span data-id="31-0-1-0" class="run__con">样例输出2</span></p>
+</td></tr><tr><td style="width:50%;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="31-1-0-0" class="run__con">2</span></p>
+</td><td style="width:50%;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="31-1-1-0" class="run__con">BBAA</span></p>
+</td></tr><tr><td style="width:50%;border-top:none;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="31-2-0-0" class="run__con">1 4 10 20</span></p>
+</td><td style="width:50%;border-top:none;border-bottom:none;" colspan="1" rowspan="1"></td></tr><tr><td style="width:50%;border-top:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="31-3-0-0" class="run__con">3 5 8 13</span></p>
+</td><td style="width:50%;border-top:none;" colspan="1" rowspan="1"></td></tr></tbody></table></div>
+<p><span></span><span><span data-id="32-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">如果满足条件的建筑物有多种装饰方式，您的程序可以输出其中的任何一种。 </span></span></p>
+<div class="paragraph" data-id="33"><table class="table" style="display:show;border-insideV:1px solid #undefined;border-top:1px solid #undefined;border-left:1px solid #undefined;border-insideH:1px solid #undefined;border-bottom:1px solid #undefined;border-right:1px solid #undefined;"><tbody><tr><td style="width:50%;" colspan="1" rowspan="1">
+<p><span></span><span data-id="33-0-0-0" class="run__con">示例输入3</span></p>
+</td><td style="width:50%;" colspan="1" rowspan="1">
+<p><span></span><span data-id="33-0-1-0" class="run__con">样例输出3</span></p>
+</td></tr><tr><td style="width:50%;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="33-1-0-0" class="run__con">2</span></p>
+</td><td style="width:50%;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="33-1-1-0" class="run__con">1</span></p>
+</td></tr><tr><td style="width:50%;border-top:none;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="33-2-0-0" class="run__con">3 4 5 6</span></p>
+</td><td style="width:50%;border-top:none;border-bottom:none;" colspan="1" rowspan="1"></td></tr><tr><td style="width:50%;border-top:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="33-3-0-0" class="run__con">10 9 8 7</span></p>
+</td><td style="width:50%;border-top:none;" colspan="1" rowspan="1"></td></tr></tbody></table></div>
+<p><span></span><span><span data-id="34-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:13.200000000000001px;color:#000000;">由于无法选择满足条件的装饰方案，所以输出-1。 </span></span></p>
+<p><span></span><span><span data-id="35-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">建筑物4 - 2 / 3 </span></span></p>
+<p><span></span><span><span data-id="36-0" class="run__con" style=""><img src="http://tranpic.nos.netease.com/36B2A28778E14785B92875CD97659177-rId3" alt="" loading="lazy"> </span></span></p>
+<p><span></span><span><span data-id="37-0" class="run__con" style=""> </span><span data-id="37-1" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;font-weight:bold;">第19届日本信息学奥林匹克(JOI 209 /2020) </span></span></p>
+<p><span></span><span><span data-id="38-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:12px;color:#000000;font-weight:bold;">春季训练营/资格赛 </span></span></p>
+<p><span></span><span><span data-id="39-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;font-weight:bold;">2020年3月20-23日(Komaba，东京 </span></span></p>
+<div class="paragraph" data-id="40"><table class="table" style="display:show;border-insideV:1px solid #undefined;border-top:1px solid #undefined;border-left:1px solid #undefined;border-insideH:1px solid #undefined;border-bottom:1px solid #undefined;border-right:1px solid #undefined;"><tbody><tr><td style="width:57%;" colspan="1" rowspan="1">
+<p><span></span><span data-id="40-0-0-0" class="run__con">示例输入4</span></p>
+</td><td style="width:43%;" colspan="1" rowspan="1">
+<p><span></span><span data-id="40-0-1-0" class="run__con">样例输出4</span></p>
+</td></tr><tr><td style="width:57%;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="40-1-0-0" class="run__con">6</span></p>
+</td><td style="width:43%;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="40-1-1-0" class="run__con">BABBABAABABA</span></p>
+</td></tr><tr><td style="width:57%;border-top:none;border-bottom:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="40-2-0-0" class="run__con">25 18 40 37 29 95 41 53 39 69 61 90</span></p>
+</td><td style="width:43%;border-top:none;border-bottom:none;" colspan="1" rowspan="1"></td></tr><tr><td style="width:57%;border-top:none;" colspan="1" rowspan="1">
+<p><span></span><span data-id="40-3-0-0" class="run__con">14 18 22 28 18 30 32 32 63 58 71 78</span></p>
+</td><td style="width:43%;border-top:none;" colspan="1" rowspan="1"></td></tr></tbody></table></div>
+<p><span></span><span><span data-id="41-0" class="run__con" style="font-family:Times New Roman,Times New Roman,Times New Roman;font-size:14.520000000000001px;color:#000000;">建筑物4 - 3 / 3 </span></span></p>
+</div>
+                </div>
+            </article>
+        </main>
+    </div>
+    <div class="doc-footer-nav mdui-color-theme">
+        <div class="mdui-container">
+            <div class="mdui-row">
+                
+                <a href="https://oier-ty.github.io/小蓝本/" class="mdui-ripple mdui-color-theme mdui-col-xs-2 mdui-col-sm-6 doc-footer-nav-left">
+                    <div class="doc-footer-nav-text">
+                        <i class="mdui-icon material-icons">arrow_back</i>
+                        <span class="doc-footer-nav-direction mdui-hidden-xs-down">上一篇文章</span>
+                        <div class="doc-footer-nav-chapter mdui-hidden-xs-down">小蓝本</div>
+                    </div>
+                </a>
+                
+                
+                <a href="https://oier-ty.github.io/qvE9TvwC-/" class="mdui-ripple mdui-color-theme mdui-col-xs-10 mdui-col-sm-6 doc-footer-nav-right">
+                    <div class="doc-footer-nav-text">
+                        <i class="mdui-icon material-icons">arrow_forward</i>
+                        <span class="doc-footer-nav-direction">下一篇文章</span>
+                        <div class="doc-footer-nav-chapter">2020 NOI online 游记</div>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+    <br>
+    
+        
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+    var gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    })
+
+    gitalk.render('gitalk-container')
+
+</script>
+
+        
+
+        
+    
+    <div class="comment"></div>
+</div>
+<footer class="mdui-container footer ">
+    <div class="head_card-offset"></div>
+    <div class="mdui-row mdui-row-gapless">
+        <div class="k-container">
+            <img width="100%" src="/media/img/skirt.png">
+        </div>
+    </div>
+
+    <div class="site-info">
+        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=290 src="//music.163.com/outchain/player?type=0&id=4901125779&auto=1&height=430"></iframe>
+
+<style>
+    body {
+      background: url(https://s2.ax1x.com/2020/02/29/3sEyPP.jpg) fixed center;
+      background-size: cover;
+    }
+  </style>
+
+Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+</footer>
+<div id="landlord" style="left:5px;bottom:0px;">
+    <div class="message" style="opacity:0"></div>
+    <canvas id="live2d" width="500" height="560" class="live2d"></canvas>
+    <div class="live_talk_input_body">
+        <div class="live_talk_input_name_body">
+            <input name="name" type="text" class="live_talk_name white_input" id="AIuserName" autocomplete="off" placeholder="你的名字" />
+        </div>
+        <div class="live_talk_input_text_body">
+            <input name="talk" type="text" class="live_talk_talk white_input" id="AIuserText" autocomplete="off" placeholder="要和我聊什么呀？"/>
+            <button type="button" class="live_talk_send_btn" id="talk_send">发送</button>
+        </div>
+    </div>
+    <input name="live_talk" id="live_talk" value="1" type="hidden" />
+    <div class="live_ico_box">
+        <div class="live_ico_item type_info" id="showInfoBtn"></div>
+        <div class="live_ico_item type_talk" id="showTalkBtn"></div>
+        <div class="live_ico_item type_music" id="musicButton"></div>
+        <div class="live_ico_item type_youdu" id="youduButton"></div>
+        <div class="live_ico_item type_quit" id="hideButton"></div>
+        <input name="live_statu_val" id="live_statu_val" value="0" type="hidden" />
+        <audio src="" style="display:none;" id="live2d_bgm" data-bgm="0" preload="none"></audio>
+        <input name="live2dBGM" value="https://img.apa70.com/123.mp3" type="hidden">
+        <input name="live2dBGM" value="https://img.apa70.com/123.mp3" type="hidden">
+        <input id="duType" value="douqilai,l2d_caihong" type="hidden">
+    </div>
+</div>
+<div id="open_live2d">召唤伊斯特瓦尔</div>
+<script>
+    var message_Path = '/media/live2d/';//资源目录，如果目录不对请更改
+    var talkAPI = "";//如果有类似图灵机器人的聊天接口请填写接口路径
+</script>
+<!--<script src="/media/js/jquery-3.3.1.min.js"></script>-->
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="/media/live2d/js/live2d.js"></script>
+<script type="text/javascript" src="/media/live2d/js/message.js"></script>
+
+</body>
+<script src="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+    $('.comment').bind('DOMNodeInserted',()=>{
+        $('.comment').unbind()
+
+        $('.vbtn').addClass(' mdui-btn mdui-color-theme-accent mdui-ripple')
+    })
+
+    let valine = new Valine({
+        el: '.comment',
+        
+        
+        
+        placeholder: '欢迎来到OIerty的小站',
+        
+        path: window.location.pathname,
+        pageSize: 30,
+        avatar:'mm',
+        notify:true
+    })
+</script>
+</html>
