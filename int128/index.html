@@ -9,7 +9,7 @@
 <meta name="description" content="前进！前进！不择手段地前进！！！">
 <meta name="theme-color" content="#000">
 <title>浅谈__int128 | TY&#39;s Blog</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1604110276802">
+<link rel="shortcut icon" href="/favicon.ico?v=1604112262540">
 <link rel="stylesheet" href="/media/css/pisces.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
@@ -238,12 +238,7 @@
     
     <div class="site-description right-motion">
       
-      
-      
-        <p>前进！前进！不择手段地前进！！！</p>
-      
-        <p>惨死在whk上的蒟蒻</p>
-      
+        <p id="binft">前进！前进！不择手段地前进！！！\n惨死在whk上的蒟蒻</p>
       
     </div>
     
@@ -273,8 +268,30 @@
     
   
   
+    <div class="sidebar-item sidebar-item-social">
+      <div class="social-item">
+        
+          
+            <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=3290465230&amp;site=qq&amp;menu=yes">
+              <i class="fa fa-qq" title="OIerty"></i>
+            </a>
+          
+            <a href="https://github.com/OIerty">
+              <i class="fa fa-github-alt" title="OIerty"></i>
+            </a>
+          
+        
+        
+      </div>
+    </div>
+  
 
 
+
+  <div style="width: 100%; position: relative;">
+    <canvas id="canvasDiyBlock" style="width:100%;">当前浏览器不支持canvas，请更换浏览器后再试</canvas>
+    <script src="/media/js/magic/clock.js"></script>
+  </div>
 
 </div>
             </div>
@@ -770,6 +787,13 @@ int main(){
     </span>
     
   </div>
+  
+  
+  
+  <div class="bg-img">
+    <img src="\media\images\custom-bgImg.jpg" />
+  </div>
+  
   
   
   
@@ -1460,7 +1484,7 @@ int main(){
   hljs.initHighlightingOnLoad();
   
   // 离开当前页title变化
-  var leaveTitle = "";
+  var leaveTitle = "发现不了我";
   if (leaveTitle) {
     document.addEventListener('visibilitychange', function () {
       if (document.visibilityState == 'hidden') {
@@ -2365,6 +2389,19 @@ CE耻，犹未雪。蒟蒻恨，何时灭！驾程序，踏破题目列表。闭
 <script src="/media/js/mouse/peace.js"></script>
 
 
+<script src="/media/js/cool.js"></script>
 
+
+
+  <div class="snow-container"></div>
+  <script src="/media/js/bg/canvas-nest.js"></script>
+  <script>
+  const config = {
+    color: '255,0,0',
+    count: 88,
+  };
+  // Using config rendering effect at 'element'.
+  const cn = new CanvasNest(document.querySelector('.snow-container'), config);
+  </script>
 
 </html>
