@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://oierty.github.io</id>
     <title>TY&apos;s Blog</title>
-    <updated>2020-10-30T23:52:35.475Z</updated>
+    <updated>2020-10-31T02:12:11.443Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://oierty.github.io"/>
     <link rel="self" href="https://oierty.github.io/atom.xml"/>
-    <subtitle>一个奋斗ing的OIer</subtitle>
+    <subtitle>前进！前进！不择手段地前进！！！</subtitle>
     <logo>https://oierty.github.io/images/avatar.png</logo>
     <icon>https://oierty.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, TY&apos;s Blog</rights>
@@ -17,8 +17,8 @@
         </link>
         <updated>2020-02-28T06:20:37.000Z</updated>
         <content type="html"><![CDATA[<h2 id="洛谷">洛谷：</h2>
-<h3 id="p1090合并果子"><a href="https://OIerty.github.io/solution-luogu-P1090">P1090【合并果子】</a></h3>
-<h3 id="p1706全排列问题"><a href="https://OIerty.github.io/solution-luogu-P1706">P1706【全排列问题】</a></h3>
+<h3 id="p1090合并果子"><a href="/solution-luogu-P1090">P1090【合并果子】</a></h3>
+<h3 id="p1706全排列问题"><a href="/solution-luogu-P1706">P1706【全排列问题】</a></h3>
 <h2 id="codeforces">Codeforces:</h2>
 <h3 id="不定期更新ing">不定期更新ing</h3>
 ]]></content>
@@ -196,21 +196,6 @@ int main(){
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[游戏]]></title>
-        <id>https://oierty.github.io/game/</id>
-        <link href="https://oierty.github.io/game/">
-        </link>
-        <updated>2020-02-27T04:44:30.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="一大波闲的无聊的游戏冲击"><strong>一大波闲的无聊的游戏冲击：</strong></h3>
-<h3 id="游戏集合c"><a href="https://www.luogu.com.cn/discuss/show/30357">游戏集合||c++</a></h3>
-<h4 id="小黑屋"><a href="https://www.xd0.com/admin/index.html?lang=cn">小黑屋</a></h4>
-<h4 id="名字竞技场"><a href="http://namerena.github.io/">名字竞技场</a></h4>
-<h4 id="猫国建设者"><a href="https://likexia.gitee.io/cat-zh/">猫国建设者</a></h4>
-<h4 id="画画"><a href="http://www.qijishow.com/Brand/Brand23/index.htm">画画</a></h4>
-<p>不定期更新ing</p>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[主页]]></title>
         <id>https://oierty.github.io/主页/</id>
         <link href="https://oierty.github.io/主页/">
@@ -219,24 +204,12 @@ int main(){
         <content type="html"><![CDATA[<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathsize="0.9em"><mtext mathvariant="monospace">本</mtext><mstyle mathsize="2.074em"><msubsup><mtext mathvariant="monospace">人</mtext><mstyle mathsize="0.9em"><msup><mtext mathvariant="monospace">的</mtext><mstyle mathsize="1.2em"><mtext mathvariant="monospace">萌新</mtext><mstyle mathsize="0.9em"><mtext mathvariant="monospace">QAQ</mtext></mstyle></mstyle></msup></mstyle><mstyle mathsize="1.2em"><mtext mathvariant="monospace">是</mtext><mstyle mathsize="0.9em"><mtext mathvariant="monospace">刚学</mtext><mstyle mathsize="1.2em"><mtext mathvariant="monospace">OI</mtext></mstyle></mstyle></mstyle></msubsup><mstyle mathsize="2.074em"><msup><mtext mathvariant="monospace">无法</mtext><mstyle mathsize="1.2em"><mtext mathvariant="monospace">反</mtext><mstyle mathsize="0.9em"><mtext mathvariant="monospace">驳</mtext></mstyle></mstyle></msup><mstyle mathsize="0.9em"><mtext mathvariant="monospace">qwq</mtext></mstyle></mstyle></mstyle></mstyle></mrow><annotation encoding="application/x-tex">\small\texttt{本}\huge\texttt{人}_{\small\texttt{的}^{\large\texttt{萌新}\small\texttt{QAQ}}}^{\large\texttt{是}{\small\texttt{刚学}\large\texttt{OI}}}\huge\texttt{无法}^{\large\texttt{反}{\small\texttt{驳}}}{\small\texttt{qwq}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.058604em;vertical-align:-0.5724099999999999em;"></span><span class="mord text sizing reset-size6 size5"><span class="mord texttt cjk_fallback">本</span></span><span class="mord sizing reset-size6 size10"><span class="mord text"><span class="mord texttt cjk_fallback">人</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.7165834136933462em;"><span style="top:-2.9240067502410803em;margin-right:0.02410800385728062em;"><span class="pstrut" style="height:3.2em;"></span><span class="sizing reset-size10 size8 mtight"><span class="mord mtight"><span class="mord sizing reset-size8 size5"><span class="mord text"><span class="mord texttt cjk_fallback">的</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.1038133333333333em;"><span style="top:-3.489em;margin-right:0.05555555555555556em;"><span class="pstrut" style="height:3.2em;"></span><span class="sizing reset-size5 size2 mtight"><span class="mord mtight"><span class="mord text sizing reset-size2 size7"><span class="mord texttt cjk_fallback">萌新</span></span><span class="mord text sizing reset-size2 size5"><span class="mord texttt">QAQ</span></span></span></span></span></span></span></span></span></span></span></span></span><span style="top:-3.563em;margin-right:0.02410800385728062em;"><span class="pstrut" style="height:3.2em;"></span><span class="sizing reset-size10 size8 mtight"><span class="mord mtight"><span class="mord text sizing reset-size8 size7"><span class="mord texttt cjk_fallback">是</span></span><span class="mord sizing reset-size8 size7"><span class="mord text sizing reset-size7 size5"><span class="mord texttt cjk_fallback">刚学</span></span><span class="mord text sizing reset-size7 size7"><span class="mord texttt">OI</span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2759932497589199em;"><span></span></span></span></span></span></span><span class="mord sizing reset-size6 size10"><span class="mord text"><span class="mord texttt cjk_fallback">无法</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7165834136933462em;"><span style="top:-3.563em;margin-right:0.02410800385728062em;"><span class="pstrut" style="height:3.2em;"></span><span class="sizing reset-size10 size8 mtight"><span class="mord mtight"><span class="mord text sizing reset-size8 size7"><span class="mord texttt cjk_fallback">反</span></span><span class="mord sizing reset-size8 size7"><span class="mord text sizing reset-size7 size5"><span class="mord texttt cjk_fallback">驳</span></span></span></span></span></span></span></span></span></span></span><span class="mord sizing reset-size6 size10"><span class="mord text sizing reset-size10 size5"><span class="mord texttt">qwq</span></span></span></span></span></span><br>
 <img src="https://luogu.vercel.app/api?id=220678&amp;dark_mode=true&amp;hide_title=true" alt="" loading="lazy"><br>
 <img src="https://luogu.vercel.app/guzhi?id=220678&amp;scores=100,6,0,6,0&amp;hide_title=true&amp;dark_mode=true" alt="" loading="lazy"></p>
-<h1 id="此人太菜">此人太菜</h1>
-<h2 id="文化课菜">文化课菜</h2>
-<h3 id="语文菜">语文菜</h3>
-<h3 id="数学菜">数学菜</h3>
-<h3 id="英语菜">英语菜</h3>
-<h3 id="科学菜">科学菜</h3>
-<h4 id="生物物理化学菜">生物物理化学菜</h4>
-<h3 id="综合菜">综合菜</h3>
-<h4 id="社会历史地理政治道德法治样样都菜">社会历史地理政治道德法治样样都菜</h4>
-<h2 id="编程太菜">编程太菜</h2>
-<h4 id="才上初一">才上初一</h4>
-<h4 id="已经就要被被小学生虐的初一虐了">已经就要被被小学生虐的初一虐了</h4>
 <h3 id="本蒟蒻没动过的cf账号"><strong>本蒟蒻没动过的CF账号：</strong></h3>
 <h2 id=""><a href="https://codeforces.com/profile/OIer_ty"><img src="https://img.shields.io/badge/OIer_ty-Unrated%20%200-808080.svg?longCache=true&amp;style=for-the-badge&amp;logo=Codeforces&amp;link=https://codeforces.com/profile/OIer_ty" alt="" loading="lazy"></a></h2>
-<h1 id="洛谷日报索引">洛谷日报索引：</h1>
-<h2 id="2018年"><a href="https://www.luogu.com.cn/discuss/show/48491">2018年</a></h2>
-<h2 id="2019年"><a href="https://www.luogu.com.cn/discuss/show/92685">2019年</a></h2>
-<h2 id="2020年"><a href="https://www.luogu.com.cn/discuss/show/179788">2020年</a></h2>
+<p>洛谷日报索引：<br>
+<a href="https://www.luogu.com.cn/discuss/show/48491">2018年</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/92685">2019年</a><br>
+<a href="https://www.luogu.com.cn/discuss/show/179788">2020年</a></p>
 <h1 id="以下并非正事">以下并非正事</h1>
 <pre><code>暴力出奇迹，骗分过样例。
 数学先打表，ＤＰ靠运气。
@@ -341,7 +314,6 @@ CE耻，犹未雪。蒟蒻恨，何时灭！驾程序，踏破题目列表。闭
 </code></pre>
 <pre><code>AC几时有，把题问OJ。
 不知记录之中，WA占几篇。 
-我欲暴力归去，又恐超时爆零，水题不胜刷。
 起舞切黑题，何似在人间！
 </code></pre>
 <pre><code>江城子·高数
@@ -364,9 +336,7 @@ CE耻，犹未雪。蒟蒻恨，何时灭！驾程序，踏破题目列表。闭
 <p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
 </blockquote>
 <h2 id="关于本站">🏠 关于本站</h2>
-<h4 id="友链"><strong>友链：</strong></h4>
-<p><a href="https://www.luogu.com.cn/user/231169">大佬Lattle_car【洛谷】</a></p>
-<h4 id="个人"><strong>个人：</strong></h4>
+<h4 id="我"><strong>我：</strong></h4>
 <p><a href="https://www.luogu.com.cn/user/220678">我自己这个蒟蒻【洛谷】</a></p>
 <p><a href="https://www.luogu.com.cn/blog/tangye123/">洛谷博客</a></p>
 <p><a href="https://www.cnblogs.com/oier-ty/">博客园</a></p>
@@ -389,8 +359,8 @@ CE耻，犹未雪。蒟蒻恨，何时灭！驾程序，踏破题目列表。闭
         <link href="https://oierty.github.io/contents/">
         </link>
         <updated>2020-02-24T16:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="题解"><a href="https://oierty.github.io/solution">题解</a></h2>
-<h2 id="关于"><a href="https://oierty.github.io/about-me">关于</a></h2>
+        <content type="html"><![CDATA[<h2 id="题解"><a href="/solution">题解</a></h2>
+<h2 id="关于"><a href="/about-me">关于</a></h2>
 <h3 id="不定期更新ing">不定期更新ing</h3>
 ]]></content>
     </entry>

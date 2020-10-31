@@ -1,316 +1,2349 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>TY&#39;s Blog</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <meta name="renderer" content="webkit">
-    <meta http-equiv="Cache-Control" content="no-siteapp"/>
-    <link rel="stylesheet" href="/styles/main.css">
-    <link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
-    <link rel="stylesheet" href="/media/css/index.css">
-    <link rel="stylesheet" href="/media/live2d/css/live2d.css" />
-    
-    <style>
-        #centerbg{
-            background-image: url(https://s1.ax1x.com/2020/03/12/8ZvwgP.jpg);
-        }
-    </style>
+  <meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="keywords" content="Gridea静态个人博客">
+<meta name="description" content="前进！前进！不择手段地前进！！！">
+<meta name="theme-color" content="#000">
+<title>TY&#39;s Blog</title>
+<link rel="shortcut icon" href="/favicon.ico?v=1604110276802">
+<link rel="stylesheet" href="/media/css/pisces.css">
+<link rel="stylesheet" href="/media/fonts/font-awesome.css">
+<link
+  href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
+  rel="stylesheet" type="text/css">
+
+<link href="/media/hljs/styles/default.css"
+  rel="stylesheet">
+
+<link rel="stylesheet" href="/styles/main.css">
+
+<script src="/media/hljs/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+
+
+
+
 </head>
-<body class=" mdui-loaded">
-<header class="mdui-toolbar mdui-color-theme mdui-appbar-fixed mdui-appbar-scroll-toolbar-hide" style="z-index: 1000">
-    <a href="javascript:;" mdui-drawer="{target: '#left-drawer',overlay:true}" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
-    <span class="mdui-typo-title">TY&#39;s Blog</span>
-    <div class="mdui-toolbar-spacer"></div>
-<!--    <a href="javascript:history.go(0);" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
-    <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
-</header>
-<div class="meteor">
-    <div class="red" style="left:600px;"></div>
-    <div class="orange" style="left:700px;"></div>
-    <div class="yellow" style="left:900px;"></div>
-    <div class="green" style="left:1100px;"></div>
-    <div class="cyan" style="left:1260px;"></div>
-    <div class="blue" style="left:1400px;"></div>
-    <div class="purple" style="left:1500px;"></div>
-    <div class="red" style="left:0px;"></div>
-    <div class="orange" style="left:100px;"></div>
-    <div class="yellow" style="left:300px;"></div>
-    <div class="green" style="left:500px;"></div>
-    <div class="cyan" style="left:660px;"></div>
-    <div class="blue" style="left:800px;"></div>
-    <div class="purple" style="left:900px;"></div>
-    <div class="red" style="left:1200px;"></div>
-    <div class="orange" style="left:1300px;"></div>
-    <div class="yellow" style="left:1500px;"></div>
-    <div class="green" style="left:1700px;"></div>
-    <div class="cyan" style="left:1860px;"></div>
-    <div class="blue" style="left:2000px;"></div>
-    <div class="purple" style="left:2100px;"></div>
-</div>
-<div class="mdui-drawer mdui-color-white mdui-drawer-full-height mdui-drawer-close" id="left-drawer">
-    <ul class="mdui-list">
-        <li class="mdui-subheader">菜单</li>
-        
-        <li class="mdui-list-item mdui-ripple">
-            <a href="/" class="mdui-list-item-content">首页</a>
-        </li>
-        
-        <li class="mdui-list-item mdui-ripple">
-            <a href="/archives" class="mdui-list-item-content">归档</a>
-        </li>
-        
-        <li class="mdui-list-item mdui-ripple">
-            <a href="https://www.luogu.com.cn/user/220678" class="mdui-list-item-content">洛谷</a>
-        </li>
-        
-        <li class="mdui-list-item mdui-ripple">
-            <a href="/contents" class="mdui-list-item-content">目录</a>
-        </li>
-        
-        <li class="mdui-list-item mdui-ripple">
-            <a href="/tags" class="mdui-list-item-content">标签</a>
-        </li>
-        
-        <li class="mdui-list-item mdui-ripple">
-            <a href="/about" class="mdui-list-item-content">关于</a>
-        </li>
-        
-        <li class="mdui-list-item mdui-ripple">
-            <a href="/solution" class="mdui-list-item-content">题解</a>
-        </li>
-        
-    </ul>
-</div>
 
-<div class="headertop filter-grid" style="height: auto">
-    <figure id="centerbg" class="centerbg" style="">
-        <div class="focusinfo">
-            <div class="header-tou">
-                <a href=">">
-                    <img src="/images/avatar.png">
-                </a>
-            </div>
-            <div class="header-info">
-                <p>一个奋斗ing的OIer</p>
-            </div>
-            <div class="top-social">
-                
-                
-                
-                 
-                
-                
-                <li>
-                    <a href="https://github.com/OIerty" target="_blank" class="social-wangyiyun" title="Twitter">
-                        <div class="www" id="github"></div>
-                    </a>
-                </li>
-                
-                
-                
-
-            </div>
+<body>
+  <div class="head-top-line"></div>
+  <div class="header-box">
+    
+<div class="pisces">
+  <header class="header  ">
+    <div class="blog-header box-shadow-wrapper bg-color " id="header">
+      <div class="nav-toggle" id="nav_toggle">
+        <div class="toggle-box">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
         </div>
-    </figure>
-</div>
-<div class="mdui-container">
-    <div class="mdui-row mdui-row-gapless">
-        <div class="k-container">
-            <div class="head_card-offset"></div>
-            <div class="head_card-offset"></div>
+      </div>
+      <div class="site-meta">       
+        <div class="site-title">
+          
+            <a href="/" class="brand">
+              <span>TY&#39;s Blog</span>
+            </a>  
+          
+        </div>
+        
+          <p class="subtitle">前进！前进！不择手段地前进！！！</p>
+        
+      </div>
+      <nav class="site-nav" id="site_nav">
+        <ul id="nav_ul">
+          
             
-    <div class="mdui-card">
-        <div class="mdui-card-media">
-            <img src="https://oierty.github.io/media/img/bai.jpg"/>
-            <div class="mdui-card-media-covered">
-                <div class="mdui-card-primary">
-                    <div class="mdui-card-primary-title">主页</div>
-                    <div class="mdui-card-primary-subtitle"></div>
-                </div>
-                <div class="mdui-card-actions" style="float:right;">
-                    <a href="https://oierty.github.io/主页/" class="mdui-btn mdui-ripple mdui-ripple-white">点击查看</a>
-                </div>
-            </div>
-        </div>
+            
+              
+            
+            <li class="nav-item nav-item-active">
+              
+              
+                <a href="/" target="_self">
+                  <i class="fa fa-home"></i> 首页
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/about/" target="_self">
+                  <i class="fa fa-globe"></i> 关于
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/contents/" target="_self">
+                  <i class="fa fa-globe"></i> 目录
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/archives/" target="_self">
+                  <i class="fa fa-archive"></i> 归档
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/tags/" target="_self">
+                  <i class="fa fa-tags"></i> 标签
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/solution/" target="_self">
+                  <i class="fa fa-globe"></i> 题解
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="https://www.luogu.com.cn/user/220678/" target="_self">
+                  <i class="fa fa-globe"></i> 洛谷
+                </a>
+              
+            </li>
+          
+          
+            
+              <li class="nav-item ">
+                <a href="/friends/" target="_self">
+                  
+                    <i class="fa fa-address-book"></i> 友情链接
+                  
+                </a>
+              </li>
+            
+          
+          
+            <li id="fa_search" class="nav-item">
+              <a href="javascript:void(0);">
+                <i class="fa fa-search"></i> <span class="language" data-lan="search">搜索</span>
+              </a>
+            </li>
+          
+        </ul>
+      </nav>
     </div>
-    <div class="head_card-offset"></div>
-
-    <div class="mdui-card">
-        <div class="mdui-card-media">
-            <img src="https://oierty.github.io/post-images/contents.jpg"/>
-            <div class="mdui-card-media-covered">
-                <div class="mdui-card-primary">
-                    <div class="mdui-card-primary-title">目录</div>
-                    <div class="mdui-card-primary-subtitle"></div>
-                </div>
-                <div class="mdui-card-actions" style="float:right;">
-                    <a href="https://oierty.github.io/contents/" class="mdui-btn mdui-ripple mdui-ripple-white">点击查看</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="head_card-offset"></div>
-
-    <div class="mdui-card">
-        <div class="mdui-card-media">
-            <img src="https://oierty.github.io/post-images/solution.png"/>
-            <div class="mdui-card-media-covered">
-                <div class="mdui-card-primary">
-                    <div class="mdui-card-primary-title">题解汇总</div>
-                    <div class="mdui-card-primary-subtitle"></div>
-                </div>
-                <div class="mdui-card-actions" style="float:right;">
-                    <a href="https://oierty.github.io/solution/" class="mdui-btn mdui-ripple mdui-ripple-white">点击查看</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="head_card-offset"></div>
-
-    <div class="mdui-card">
-        <div class="mdui-card-media">
-            <img src="https://oierty.github.io/media/img/bai.jpg"/>
-            <div class="mdui-card-media-covered">
-                <div class="mdui-card-primary">
-                    <div class="mdui-card-primary-title">【洛谷】题解 P1090 【合并果子】</div>
-                    <div class="mdui-card-primary-subtitle"></div>
-                </div>
-                <div class="mdui-card-actions" style="float:right;">
-                    <a href="https://oierty.github.io/solution-luogu-P1090/" class="mdui-btn mdui-ripple mdui-ripple-white">点击查看</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="head_card-offset"></div>
-
-    <div class="mdui-card">
-        <div class="mdui-card-media">
-            <img src="https://oierty.github.io/media/img/bai.jpg"/>
-            <div class="mdui-card-media-covered">
-                <div class="mdui-card-primary">
-                    <div class="mdui-card-primary-title">【洛谷】题解P1706【全排列问题】</div>
-                    <div class="mdui-card-primary-subtitle"></div>
-                </div>
-                <div class="mdui-card-actions" style="float:right;">
-                    <a href="https://oierty.github.io/solution-luogu-P1706/" class="mdui-btn mdui-ripple mdui-ripple-white">点击查看</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="head_card-offset"></div>
-
-    <div class="mdui-card">
-        <div class="mdui-card-media">
-            <img src="https://oierty.github.io/media/img/bai.jpg"/>
-            <div class="mdui-card-media-covered">
-                <div class="mdui-card-primary">
-                    <div class="mdui-card-primary-title">浅谈__int128</div>
-                    <div class="mdui-card-primary-subtitle"></div>
-                </div>
-                <div class="mdui-card-actions" style="float:right;">
-                    <a href="https://oierty.github.io/int128/" class="mdui-btn mdui-ripple mdui-ripple-white">点击查看</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="head_card-offset"></div>
-
-    <div class="mdui-card">
-        <div class="mdui-card-media">
-            <img src="https://oierty.github.io/media/img/bai.jpg"/>
-            <div class="mdui-card-media-covered">
-                <div class="mdui-card-primary">
-                    <div class="mdui-card-primary-title">游戏</div>
-                    <div class="mdui-card-primary-subtitle"></div>
-                </div>
-                <div class="mdui-card-actions" style="float:right;">
-                    <a href="https://oierty.github.io/game/" class="mdui-btn mdui-ripple mdui-ripple-white">点击查看</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="head_card-offset"></div>
-
-    <div class="mdui-card">
-        <div class="mdui-card-media">
-            <img src="https://oierty.github.io/media/img/bai.jpg"/>
-            <div class="mdui-card-media-covered">
-                <div class="mdui-card-primary">
-                    <div class="mdui-card-primary-title">关于</div>
-                    <div class="mdui-card-primary-subtitle"></div>
-                </div>
-                <div class="mdui-card-actions" style="float:right;">
-                    <a href="https://oierty.github.io/about/" class="mdui-btn mdui-ripple mdui-ripple-white">点击查看</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="head_card-offset"></div>
-
-
-        </div>
-    </div>
-    <div class="mdui-row">
-    </div>
+  </header>
 </div>
-<footer class="mdui-container footer ">
-    <div class="head_card-offset"></div>
-    <div class="mdui-row mdui-row-gapless">
-        <div class="k-container">
-            <img width="100%" src="/media/img/skirt.png">
-        </div>
-    </div>
 
-    <div class="site-info">
-        <style>
-    body {
-      background: url(https://s2.ax1x.com/2020/02/29/3sEyPP.jpg) fixed center;
-      background-size: cover;
+<script type="text/javascript"> 
+ 
+  let showNav = true;
+
+  let navToggle = document.querySelector('#nav_toggle'),
+  siteNav = document.querySelector('#site_nav');
+  
+  function navClick() {
+    let sideBar = document.querySelector('.sidebar');
+    let navUl = document.querySelector('#nav_ul');
+    navToggle.classList.toggle('nav-toggle-active');
+    siteNav.classList.toggle('nav-menu-active');
+    if (siteNav.classList.contains('nav-menu-active')) {
+      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
+    } else {
+      siteNav.style = "";
     }
-  </style>
+  }
 
-Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  navToggle.addEventListener('click',navClick);  
+</script>
+  </div>
+  <div class="main-continer">
+    
+    <div
+      class="section-layout pisces ">
+      <div class="section-layout-wrapper">
+        <div id="sidebarMeta" class="sidebar">
+    
+<div class="sidebar-wrapper box-shadow-wrapper bg-color">
+  <div class="sidebar-item">
+    <img class="site-author-image right-motion" src="/images/avatar.png"/>
+    <p class="site-author-name">OIerty</p>
+    
+    <div class="site-description right-motion">
+      
+      
+      
+        <p>前进！前进！不择手段地前进！！！</p>
+      
+        <p>惨死在whk上的蒟蒻</p>
+      
+      
     </div>
-</footer>
-<div id="landlord" style="left:5px;bottom:0px;">
-    <div class="message" style="opacity:0"></div>
+    
+  </div>
+  <div class="sidebar-item side-item-stat right-motion">
+    <div class="sidebar-item-box">
+      <a href="/archives/">
+        
+        <span class="site-item-stat-count">7</span>
+        <span class="site-item-stat-name language" data-lan="article">文章</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="">
+        <span class="site-item-stat-count">3</span>
+        <span class="site-item-stat-name language" data-lan="category">分类</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="/tags/">
+        <span class="site-item-stat-count">3</span>
+        <span class="site-item-stat-name language" data-lan="tag">标签</span>
+      </a>
+    </div>
+  </div>
+  
+    
+  
+  
+
+
+
+</div>
+</div>
+<script>
+  let sidebarMeta = document.querySelector('#sidebarMeta');
+  let scheme = 'pisces';
+  let sidebarWrapper = document.querySelector('.sidebar-wrapper');
+  if (sidebarMeta && (scheme === 'pisces' || scheme === 'gemini')) {
+    document.addEventListener('scroll', function(e) {
+      if (document.scrollingElement.scrollTop > parseInt(sidebarMeta.style.marginTop) + 10) {
+        sidebarWrapper.classList.add('home-sidebar-fixed')
+      } else {
+        sidebarWrapper.classList.remove('home-sidebar-fixed')
+      }
+    });
+  }
+  </script>
+        <div class="section-box pisces">
+          <section class="section bg-color posts-expand slide-down-in">
+            
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <section class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="https://oierty.github.io/主页/">
+      主页
+    </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item">
+      <i class="fa fa-thumb-tack"></i>
+      <span class="language" data-lan="top">置顶</span>
+      <span class="post-meta-divider">|</span>
+    </span>
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span class="language" data-lan="publish">发布于</span>
+      <span class="publish-time" data-t="2020-02-27 10:00:00">2020-02-27</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
+    
+    <span class="meta-item">
+      <i class="fa fa-folder-o"></i>
+      <span class="pc-show language" data-lan="category-in">分类于</span>
+      
+      
+      <a href="https://oierty.github.io/zhu-ye/">
+        <span>主页</span>
+      </a>
+      
+      
+    </span>
+    <span class="post-meta-divider">|</span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>5<span class="language" data-lan="minute">分钟</span></span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>1344<span class="pc-show language" data-lan="words">字数</span></span>
+    </span>
+    
+  </div>
+</section>
+      <div class="post-body">
+        
+        
+          
+            <!-- 没有手动摘要切开启了自动摘要,则根据配置筛除摘要内容 -->
+            
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+            
+              <p><p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathsize="0.9em"><mtext mathvariant="monospace">本</mtext><mstyle mathsize="2.074em"><msubsup><mtext mathvariant="monospace">人</mtext><mstyle mathsize="0.9em"><msup><mtext mathvariant="monospace">的</mtext><mstyle mathsize="1.2em"><mtext mathvariant="monospace">萌新</mtext><mstyle mathsize="0.9em"><mtext mathvariant="monospace">QAQ</mtext></mstyle></mstyle></msup></mstyle><mstyle mathsize="1.2em"><mtext mathvariant="monospace">是</mtext><mstyle mathsize="0.9em"><mtext mathvariant="monospace">刚学</mtext><mstyle mathsize="1.2em"><mtext mathvariant="monospace">OI</mtext></mstyle></mstyle></mstyle></msubsup><mstyle mathsize="2.074em"><msup><mtext mathvariant="monospace">无法</mtext><mstyle mathsize="1.2em"><mtext mathvariant="monospace">反</mtext><mstyle mathsize="0.9em"><mtext mathvariant="monospace">驳</mtext></mstyle></mstyle></msup><mstyle mathsize="0.9em"><mtext mathvariant="monospace">qwq</mtext></mstyle></mstyle></mstyle></mstyle></mrow><annotation encoding="application/x-tex">\small\texttt{本}\huge\texttt{人}_{\small\texttt{的}^{\large\texttt{萌新}\small\texttt{QAQ}}}^{\large\texttt{是}{\small\texttt{刚学}\large\texttt{OI}}}\huge\texttt{无法}^{\large\texttt{反}{\small\texttt{驳}}}{\small\texttt{qwq}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.058604em;vertical-align:-0.5724099999999999em;"></span><span class="mord text sizing reset-size6 size5"><span class="mord texttt cjk_fallback">本</span></span><span class="mord sizing reset-size6 size10"><span class="mord text"><span class="mord texttt cjk_fallback">人</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.7165834136933462em;"><span style="top:-2.9240067502410803em;margin-right:0.02410800385728062em;"><span class="pstrut" style="height:3.2em;"></span><span class="sizing reset-size10 size8 mtight"><span class="mord mtight"><span class="mord sizing reset-size8 size5"><span class="mord text"><span class="mord texttt cjk_fallback">的</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.1038133333333333em;"><span style="top:-3.489em;margin-right:0.05555555555555556em;"><span class="pstrut" style="height:3.2em;"></span><span class="sizing reset-size5 size2 mtight"><span class="mord mtight"><span class="mord text sizing reset-size2 size7"><span class="mord texttt cjk_fallback">萌新</span></span><span class="mord text sizing reset-size2 size5"><span class="mord texttt">QAQ</span></span></span></span></span></span></span></span></span></span></span></span></span><span style="top:-3.563em;margin-right:0.02410800385728062em;"><span class="pstrut" style="height:3.2em;"></span><span class="sizing reset-size10 size8 mtight"><span class="mord mtight"><span class="mord text sizing reset-size8 size7"><span class="mord texttt cjk_fallback">是</span></span><span class="mord sizing reset-size8 size7"><span class="mord text sizing reset-size7 size5"><span class="mord texttt cjk_fallback">刚学</span></span><span class="mord text sizing reset-size7 size7"><span class="mord texttt">OI</span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2759932497589199em;"><span></span></span></span></span></span></span><span class="mord sizing reset-size6 size10"><span class="mord text"><span class="mord texttt cjk_fallback">无法</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7165834136933462em;"><span style="top:-3.563em;margin-right:0.02410800385728062em;"><span class="pstrut" style="height:3.2em;"></span><span class="sizing reset-size10 size8 mtight"><span class="mord mtight"><span class="mord text sizing reset-size8 size7"><span class="mord texttt cjk_fallback">反</span></span><span class="mord sizing reset-size8 size7"><span class="mord text sizing reset-size7 size5"><span class="mord texttt cjk_fallback">驳</span></span></span></span></span></span></span></span></span></span></span><span class="mord sizing reset-size6 size10"><span class="mord text sizing reset-size10 size5"><span class="mord texttt">qwq</span></span></span></span></span></span><br>
+<img src="https://luogu.vercel.app/api?id=220678&amp;dark_mode=true&amp;hide_title=true" alt="" loading="lazy"><br>
+<img src="https://luogu.vercel.app/guzhi?id=220678&amp;scores=100,6,0,6,0&amp;hide_title=true&amp;dark_mode=true" alt="" loading="lazy"></p>
+<h3 id="本蒟蒻没动过的cf账号"><strong>本蒟蒻没动过的CF账号：</strong></h3>
+<h2 id=""><a href="https://codeforces.com/profile/OIer_ty"><img src="https://img.shields.io/badge/OIer_ty-Unrated%20%200-808080.svg?longCache=true&amp;style=for-the-badge&amp;logo=Codeforces&amp;link=https://codeforces.com/profile/OIer_ty" alt="" loading="lazy"></a></h2>
+
+                
+              <p>
+            
+          
+        
+        
+        <div class="post-button text-center">
+          <a class="btn language" data-lan="read-more" href="https://oierty.github.io/主页/" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
+      </div>
+      
+        <footer class="post-footer">
+          <div class="post-eof"></div>
+        </footer>
+      
+    </div>
+  </article>
+
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <section class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="https://oierty.github.io/contents/">
+      目录
+    </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item">
+      <i class="fa fa-thumb-tack"></i>
+      <span class="language" data-lan="top">置顶</span>
+      <span class="post-meta-divider">|</span>
+    </span>
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span class="language" data-lan="publish">发布于</span>
+      <span class="publish-time" data-t="2020-02-25 00:00:00">2020-02-25</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>1<span class="language" data-lan="minute">分钟</span></span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>10<span class="pc-show language" data-lan="words">字数</span></span>
+    </span>
+    
+  </div>
+</section>
+      <div class="post-body">
+        
+        
+          
+            <!-- 没有手动摘要切开启了自动摘要,则根据配置筛除摘要内容 -->
+            
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+            
+              <p><h2 id="题解"><a href="/solution">题解</a></h2>
+<h2 id="关于"><a href="/about-me">关于</a></h2>
+<h3 id="不定期更新ing">不定期更新ing</h3>
+
+                
+              <p>
+            
+          
+        
+        
+        <div class="post-button text-center">
+          <a class="btn language" data-lan="read-more" href="https://oierty.github.io/contents/" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
+      </div>
+      
+        <footer class="post-footer">
+          <div class="post-eof"></div>
+        </footer>
+      
+    </div>
+  </article>
+
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <section class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="https://oierty.github.io/solution/">
+      题解汇总
+    </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span class="language" data-lan="publish">发布于</span>
+      <span class="publish-time" data-t="2020-02-28 14:20:37">2020-02-28</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>1<span class="language" data-lan="minute">分钟</span></span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>20<span class="pc-show language" data-lan="words">字数</span></span>
+    </span>
+    
+  </div>
+</section>
+      <div class="post-body">
+        
+        
+          
+            <!-- 没有手动摘要切开启了自动摘要,则根据配置筛除摘要内容 -->
+            
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+            
+              <p><h2 id="洛谷">洛谷：</h2>
+<h3 id="p1090合并果子"><a href="/solution-luogu-P1090">P1090【合并果子】</a></h3>
+<h3 id="p1706全排列问题"><a href="/solution-luogu-P1706">P1706【全排列问题】</a></h3>
+<h2 id="codeforces">Codeforces:</h2>
+<h3 id="不定期更新ing">不定期更新ing</h3>
+
+                
+              <p>
+            
+          
+        
+        
+        <div class="post-button text-center">
+          <a class="btn language" data-lan="read-more" href="https://oierty.github.io/solution/" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
+      </div>
+      
+        <footer class="post-footer">
+          <div class="post-eof"></div>
+        </footer>
+      
+    </div>
+  </article>
+
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <section class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="https://oierty.github.io/solution-luogu-P1090/">
+      【洛谷】题解 P1090 【合并果子】
+    </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span class="language" data-lan="publish">发布于</span>
+      <span class="publish-time" data-t="2020-02-28 13:46:01">2020-02-28</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
+    
+    <span class="meta-item">
+      <i class="fa fa-folder-o"></i>
+      <span class="pc-show language" data-lan="category-in">分类于</span>
+      
+      
+      <a href="https://oierty.github.io/ti-jie/">
+        <span>题解</span>
+      </a>
+      
+      
+    </span>
+    <span class="post-meta-divider">|</span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>1<span class="language" data-lan="minute">分钟</span></span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>160<span class="pc-show language" data-lan="words">字数</span></span>
+    </span>
+    
+  </div>
+</section>
+      <div class="post-body">
+        
+        
+          
+            <!-- 没有手动摘要切开启了自动摘要,则根据配置筛除摘要内容 -->
+            
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+            
+              <p><p>#<a href="https://www.luogu.com.cn/problem/P1090">【洛谷】P1090【合并果子】</a><br>
+这乍看，很水的贪心：每次将最小两队合并为一堆</p>
+<p>再一编：TLE<s>我去</s></p>
+<p>于是就得用到优先队列</p>
+<p><s>本人不是很懂，请教了旁人</s></p>
+
+                
+              <p>
+            
+          
+        
+        
+        <div class="post-button text-center">
+          <a class="btn language" data-lan="read-more" href="https://oierty.github.io/solution-luogu-P1090/" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
+      </div>
+      
+        <footer class="post-footer">
+          <div class="post-eof"></div>
+        </footer>
+      
+    </div>
+  </article>
+
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <section class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="https://oierty.github.io/solution-luogu-P1706/">
+      【洛谷】题解P1706【全排列问题】
+    </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span class="language" data-lan="publish">发布于</span>
+      <span class="publish-time" data-t="2020-02-28 13:42:59">2020-02-28</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
+    
+    <span class="meta-item">
+      <i class="fa fa-folder-o"></i>
+      <span class="pc-show language" data-lan="category-in">分类于</span>
+      
+      
+      <a href="https://oierty.github.io/ti-jie/">
+        <span>题解</span>
+      </a>
+      
+      
+    </span>
+    <span class="post-meta-divider">|</span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>1<span class="language" data-lan="minute">分钟</span></span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>175<span class="pc-show language" data-lan="words">字数</span></span>
+    </span>
+    
+  </div>
+</section>
+      <div class="post-body">
+        
+        
+          
+            <!-- 没有手动摘要切开启了自动摘要,则根据配置筛除摘要内容 -->
+            
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+            
+              <p><h1 id="洛谷p1706全排列问题"><a href="https://www.luogu.com.cn/problem/P1706">【洛谷】P1706【全排列问题】</a></h1>
+<p>首先全排列个数就是<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi><mo>!</mo></mrow><annotation encoding="application/x-tex">n!</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">n</span><span class="mclose">!</span></span></span></span><br>
+接下来是C++在全排列里的过程：</p>
+<pre><code class="language-cpp">next_permutation(a,a+n);//n表示全排列数，这可以让a[0]~a[n-1]按字典序进行下一全排列
+prev_permutation(a,a+n);//进行上一去排列
+
+                
+                  <!-- 自动摘要出来的内容有<code则补上结尾,防止格式错误 -->
+                  </code></pre>
+                
+              <p>
+            
+          
+        
+        
+        <div class="post-button text-center">
+          <a class="btn language" data-lan="read-more" href="https://oierty.github.io/solution-luogu-P1706/" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
+      </div>
+      
+        <footer class="post-footer">
+          <div class="post-eof"></div>
+        </footer>
+      
+    </div>
+  </article>
+
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <section class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="https://oierty.github.io/int128/">
+      浅谈__int128
+    </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span class="language" data-lan="publish">发布于</span>
+      <span class="publish-time" data-t="2020-02-28 11:44:21">2020-02-28</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>3<span class="language" data-lan="minute">分钟</span></span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>595<span class="pc-show language" data-lan="words">字数</span></span>
+    </span>
+    
+  </div>
+</section>
+      <div class="post-body">
+        
+        
+          
+            <!-- 没有手动摘要切开启了自动摘要,则根据配置筛除摘要内容 -->
+            
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+            
+              <p><p>很多时候，题目的数据范围刚好卡在long long的临界范围，经过多次运算后，最后答案就有可能会爆（例如P6101 出言不逊）。</p>
+<p>有可能只是本蒟蒻太菜，不会用其他方法，我就偶然瞟到了有人在讨论__int128这个类型，我觉得很神奇，就自己试了试，发现：</p>
+<p><s>woc，不能用cin，cout读入输出有个鬼用</s></p>
+<p>于是我想到了类似于快读的好东西</p>
+<p>读入程序如下：</p>
+
+                
+              <p>
+            
+          
+        
+        
+        <div class="post-button text-center">
+          <a class="btn language" data-lan="read-more" href="https://oierty.github.io/int128/" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
+      </div>
+      
+        <footer class="post-footer">
+          <div class="post-eof"></div>
+        </footer>
+      
+    </div>
+  </article>
+
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <section class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="https://oierty.github.io/about/">
+      关于
+    </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span class="language" data-lan="publish">发布于</span>
+      <span class="publish-time" data-t="2020-02-27 00:00:00">2020-02-27</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
+    
+    <span class="meta-item">
+      <i class="fa fa-folder-o"></i>
+      <span class="pc-show language" data-lan="category-in">分类于</span>
+      
+      
+      <a href="https://oierty.github.io/w-CAJKHHz/">
+        <span>关于</span>
+      </a>
+      
+      
+    </span>
+    <span class="post-meta-divider">|</span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>1<span class="language" data-lan="minute">分钟</span></span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>98<span class="pc-show language" data-lan="words">字数</span></span>
+    </span>
+    
+  </div>
+</section>
+      <div class="post-body">
+        
+        
+          
+            <!-- 没有手动摘要切开启了自动摘要,则根据配置筛除摘要内容 -->
+            
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+            
+              <p><blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<h4 id="我"><strong>我：</strong></h4>
+
+                
+              <p>
+            
+          
+        
+        
+        <div class="post-button text-center">
+          <a class="btn language" data-lan="read-more" href="https://oierty.github.io/about/" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
+      </div>
+      
+        <footer class="post-footer">
+          <div class="post-eof"></div>
+        </footer>
+      
+    </div>
+  </article>
+  
+            
+            
+<div class="page bg-color">
+  <ul class="pagination-ul">
+    
+    
+      
+        <li class="pagination-li pagination-active">
+            <a href="/page/../">
+              1
+            </a>
+        </li>
+      
+    
+    
+  </ul>
+</div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="footer-box">
+  <footer class="footer">
+    <div class="copyright">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | © 2019-2020 Theme By <a
+        href="https://github.com/hsxyhao/gridea-theme-next" target="_blank">HsxyHao</a>
+    </div>
+    <div class="poweredby">
+      
+    </div>
+  </footer>
+  
+  
+  <div class="pisces back-to-top" id="back_to_top">
+    <i class="fa fa-arrow-up"></i>
+    
+    <span class="scrollpercent">
+      <span id="back_to_top_text">0</span>%
+    </span>
+    
+  </div>
+  
+  
+  
+<link rel="stylesheet" href="/media/live2d/css/live2d.css" />
+<div class="box-scale">
+  <div id="landlord" style="left: 5px;bottom: px;"
+    data-key="">
     <canvas id="live2d" width="500" height="560" class="live2d"></canvas>
-    <div class="live_talk_input_body">
+    
+
+      <div class="message" style="opacity:0"></div>
+      <div class="live_talk_input_body">
         <div class="live_talk_input_name_body">
-            <input name="name" type="text" class="live_talk_name white_input" id="AIuserName" autocomplete="off" placeholder="你的名字" />
+          <input name="name" type="text" class="live_talk_name white_input" id="AIuserName" autocomplete="off"
+            placeholder="你的名字" />
         </div>
         <div class="live_talk_input_text_body">
-            <input name="talk" type="text" class="live_talk_talk white_input" id="AIuserText" autocomplete="off" placeholder="要和我聊什么呀？"/>
-            <button type="button" class="live_talk_send_btn" id="talk_send">发送</button>
+          <input name="talk" type="text" class="live_talk_talk white_input" id="AIuserText" autocomplete="off"
+            placeholder="要和我聊什么呀？" />
+          <button type="button" class="live_talk_send_btn" id="talk_send">发送</button>
         </div>
-    </div>
-    <input name="live_talk" id="live_talk" value="1" type="hidden" />
-    <div class="live_ico_box">
+      </div>
+      <input name="live_talk" id="live_talk" value="1" type="hidden" />
+      <div class="live_ico_box">
         <div class="live_ico_item type_info" id="showInfoBtn"></div>
         <div class="live_ico_item type_talk" id="showTalkBtn"></div>
-        <div class="live_ico_item type_music" id="musicButton"></div>
+        
         <div class="live_ico_item type_youdu" id="youduButton"></div>
         <div class="live_ico_item type_quit" id="hideButton"></div>
         <input name="live_statu_val" id="live_statu_val" value="0" type="hidden" />
         <audio src="" style="display:none;" id="live2d_bgm" data-bgm="0" preload="none"></audio>
-        <input name="live2dBGM" value="https://img.apa70.com/123.mp3" type="hidden">
-        <input name="live2dBGM" value="https://img.apa70.com/123.mp3" type="hidden">
-        <input id="duType" value="douqilai,l2d_caihong" type="hidden">
-    </div>
+        <input id="duType" value="douqilai" type="hidden">
+        
+      </div>
+    
+  </div>
 </div>
-<div id="open_live2d">召唤伊斯特瓦尔</div>
+<div id="open_live2d">召唤看板娘</div>
+<script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 <script>
-    var message_Path = '/media/live2d/';//资源目录，如果目录不对请更改
-    var talkAPI = "";//如果有类似图灵机器人的聊天接口请填写接口路径
+  var message_Path = 'https://cdn.jsdelivr.net/gh/hsxyhao/live2d.github.io@master/';
+  let landlord = document.querySelector('#landlord');
+  var apiKey = landlord.dataset.key;
 </script>
-<!--<script src="/media/js/jquery-3.3.1.min.js"></script>-->
-<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 <script type="text/javascript" src="/media/live2d/js/live2d.js"></script>
-<script type="text/javascript" src="/media/live2d/js/message.js"></script>
+<script>
+	var home_Path = document.location.protocol + '//' + window.document.location.hostname + ":" + window.document.location.port + '/';
+	var userAgent = window.navigator.userAgent.toLowerCase();
+	var norunAI = ["android", "iphone", "ipod", "ipad", "windows phone", "mqqbrowser", "msie", "trident/7.0"];
+	var norunFlag = false;
 
+	for (var i = 0; i < norunAI.length; i++) {
+		if (userAgent.indexOf(norunAI[i]) > -1) {
+			norunFlag = true;
+			break;
+		}
+	}
+
+	if (!window.WebGLRenderingContext) {
+		norunFlag = true;
+	}
+
+	if (!norunFlag) {
+		var hitFlag = false;
+		var AIFadeFlag = false;
+		var liveTlakTimer = null;
+		var sleepTimer_ = null;
+		var AITalkFlag = false;
+		var talkNum = 0;
+		(function () {
+			function renderTip(template, context) {
+				var tokenReg = /(\\)?\{([^\{\}\\]+)(\\)?\}/g;
+				return template.replace(tokenReg, function (word, slash1, token, slash2) {
+					if (slash1 || slash2) {
+						return word.replace('\\', '');
+					}
+					var variables = token.replace(/\s/g, '').split('.');
+					var currentObject = context;
+					var i, length, variable;
+					for (i = 0, length = variables.length; i < length; ++i) {
+						variable = variables[i];
+						currentObject = currentObject[variable];
+						if (currentObject === undefined || currentObject === null) return '';
+					}
+					return currentObject;
+				});
+			}
+
+			String.prototype.renderTip = function (context) {
+				return renderTip(this, context);
+			};
+
+			var re = /x/;
+			re.toString = function () {
+				showMessage('哈哈，你打开了控制台，是想要看看我的秘密吗？', 5000);
+				return '';
+			};
+
+			$(document).on('copy', function () {
+				showMessage('你都复制了些什么呀，转载要记得加上出处哦~~', 5000);
+			});
+
+			function initTips() {
+				$.ajax({
+					cache: true,
+					url: message_Path + 'message.json',
+					dataType: "json",
+					success: function (result) {
+						$.each(result.mouseover, function (index, tips) {
+							$(tips.selector).mouseover(function () {
+								var text = tips.text;
+								if (Array.isArray(tips.text)) text = tips.text[Math.floor(Math.random() * tips.text.length + 1) - 1];
+								text = text.renderTip({ text: $(this).text() });
+								showMessage(text, 3000);
+								talkValTimer();
+								clearInterval(liveTlakTimer);
+								liveTlakTimer = null;
+							});
+							$(tips.selector).mouseout(function () {
+								showHitokoto();
+								if (liveTlakTimer == null) {
+									liveTlakTimer = window.setInterval(function () {
+										showHitokoto();
+									}, 15000);
+								};
+							});
+						});
+						$.each(result.click, function (index, tips) {
+							$(tips.selector).click(function () {
+								if (hitFlag) {
+									return false
+								}
+								hitFlag = true;
+								setTimeout(function () {
+									hitFlag = false;
+								}, 8000);
+								var text = tips.text;
+								if (Array.isArray(tips.text)) text = tips.text[Math.floor(Math.random() * tips.text.length + 1) - 1];
+								text = text.renderTip({ text: $(this).text() });
+								showMessage(text, 3000);
+							});
+							clearInterval(liveTlakTimer);
+							liveTlakTimer = null;
+							if (liveTlakTimer == null) {
+								liveTlakTimer = window.setInterval(function () {
+									showHitokoto();
+								}, 15000);
+							};
+						});
+					}
+				});
+			}
+			initTips();
+
+			var text;
+			if (document.referrer !== '') {
+				var referrer = document.createElement('a');
+				referrer.href = document.referrer;
+				text = '嗨！来自 <span style="color:#0099cc;">' + referrer.hostname + '</span> 的朋友！';
+				var domain = referrer.hostname.split('.')[1];
+				if (domain == 'baidu') {
+					text = '嗨！ 来自 百度搜索 的朋友！<br>欢迎访问<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
+				} else if (domain == 'so') {
+					text = '嗨！ 来自 360搜索 的朋友！<br>欢迎访问<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
+				} else if (domain == 'google') {
+					text = '嗨！ 来自 谷歌搜索 的朋友！<br>欢迎访问<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
+				}
+			} else {
+				if (window.location.href == home_Path) { //主页URL判断，需要斜杠结尾
+					var now = (new Date()).getHours();
+					if (now > 23 || now <= 5) {
+						text = '你是夜猫子呀？这么晚还不睡觉，明天起的来嘛？';
+					} else if (now > 5 && now <= 7) {
+						text = '早上好！一日之计在于晨，美好的一天就要开始了！';
+					} else if (now > 7 && now <= 11) {
+						text = '上午好！工作顺利嘛，不要久坐，多起来走动走动哦！';
+					} else if (now > 11 && now <= 14) {
+						text = '中午了，工作了一个上午，现在是午餐时间！';
+					} else if (now > 14 && now <= 17) {
+						text = '午后很容易犯困呢，今天的运动目标完成了吗？';
+					} else if (now > 17 && now <= 19) {
+						text = '傍晚了！窗外夕阳的景色很美丽呢，最美不过夕阳红~~';
+					} else if (now > 19 && now <= 21) {
+						text = '晚上好，今天过得怎么样？';
+					} else if (now > 21 && now <= 23) {
+						text = '已经这么晚了呀，早点休息吧，晚安~~';
+					} else {
+						text = '嗨~ 快来逗我玩吧！';
+					}
+				} else {
+					text = '欢迎阅读<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
+				}
+			}
+			showMessage(text, 12000);
+		})();
+
+		liveTlakTimer = setInterval(function () {
+			showHitokoto();
+		}, 15000);
+
+		function showHitokoto() {
+			if (sessionStorage.getItem("Sleepy") !== "1") {
+				if (!AITalkFlag) {
+					$.getJSON('https://v1.hitokoto.cn/', function (result) {
+						talkValTimer();
+						showMessage(result.hitokoto, 0);
+					});
+				}
+			} else {
+				hideMessage(0);
+				if (sleepTimer_ == null) {
+					sleepTimer_ = setInterval(function () {
+						checkSleep();
+					}, 200);
+				}
+			}
+		}
+
+		function checkSleep() {
+			var sleepStatu = sessionStorage.getItem("Sleepy");
+			if (sleepStatu !== '1') {
+				talkValTimer();
+				showMessage('你回来啦~', 0);
+				clearInterval(sleepTimer_);
+				sleepTimer_ = null;
+			}
+		}
+
+		function showMessage(text, timeout) {
+			if (Array.isArray(text)) text = text[Math.floor(Math.random() * text.length + 1) - 1];
+			$('.message').stop();
+			$('.message').html(text);
+			$('.message').fadeTo(200, 1);
+			//if (timeout === null) timeout = 5000;
+			//hideMessage(timeout);
+		}
+		function talkValTimer() {
+			$('#live_talk').val('1');
+		}
+
+		function hideMessage(timeout) {
+			//$('.message').stop().css('opacity',1);
+			if (timeout === null) timeout = 5000;
+			$('.message').delay(timeout).fadeTo(200, 0);
+		}
+
+		function initLive2d() {
+			$('#hideButton').on('click', function () {
+				if (AIFadeFlag) {
+					return false;
+				} else {
+					AIFadeFlag = true;
+					localStorage.setItem("live2dhidden", "0");
+					$('#landlord').fadeOut(200);
+					$('#open_live2d').delay(200).fadeIn(200);
+					setTimeout(function () {
+						AIFadeFlag = false;
+					}, 300);
+				}
+			});
+			$('#open_live2d').on('click', function () {
+				if (AIFadeFlag) {
+					return false;
+				} else {
+					AIFadeFlag = true;
+					localStorage.setItem("live2dhidden", "1");
+					$('#open_live2d').fadeOut(200);
+					$('#landlord').delay(200).fadeIn(200);
+					setTimeout(function () {
+						AIFadeFlag = false;
+					}, 300);
+				}
+			});
+			$('#youduButton').on('click', function () {
+				if ($('#youduButton').hasClass('doudong')) {
+					var typeIs = $('#youduButton').attr('data-type');
+					$('#youduButton').removeClass('doudong');
+					$('body').removeClass(typeIs);
+					$('#youduButton').attr('data-type', '');
+				} else {
+					var duType = $('#duType').val();
+					var duArr = duType.split(",");
+					var dataType = duArr[Math.floor(Math.random() * duArr.length)];
+
+					$('#youduButton').addClass('doudong');
+					$('#youduButton').attr('data-type', dataType);
+					$('body').addClass(dataType);
+				}
+			});
+			if (apiKey) {
+				$('#showInfoBtn').on('click', function () {
+					var live_statu = $('#live_statu_val').val();
+					if (live_statu == "0") {
+						return
+					} else {
+						$('#live_statu_val').val("0");
+						$('.live_talk_input_body').fadeOut(500);
+						AITalkFlag = false;
+						showHitokoto();
+						$('#showTalkBtn').show();
+						$('#showInfoBtn').hide();
+					}
+				});
+				$('#showTalkBtn').on('click', function () {
+					var live_statu = $('#live_statu_val').val();
+					if (live_statu == "1") {
+						return
+					} else {
+						$('#live_statu_val').val("1");
+						$('.live_talk_input_body').fadeIn(500);
+						AITalkFlag = true;
+						$('#showTalkBtn').hide();
+						$('#showInfoBtn').show();
+
+					}
+				});
+				$('#talk_send').on('click', function () {
+					var info_ = $('#AIuserText').val();
+					var userid_ = $('#AIuserName').val();
+					if (info_ == "") {
+						showMessage('写点什么吧！', 0);
+						return;
+					}
+					if (userid_ == "") {
+						showMessage('聊之前请告诉我你的名字吧！', 0);
+						return;
+					}
+					showMessage('思考中~', 0);
+					let protocol = window.location.protocol.indexOf("s") > 0 ? "https" : "http";
+					$.ajax({
+						type: "get",
+						url: `${protocol}://www.tuling123.com/openapi/api?key=${apiKey}&info=${info_}`,
+						dataType: "json",
+						success: function (res) {
+							talkValTimer();
+							showMessage(res.text, 0);
+							$('#AIuserText').val("");
+							sessionStorage.setItem("live2duser", userid_);
+						},
+						error: function (e) {
+							talkValTimer();
+							showMessage('似乎有什么错误，请和站长联系！', 0);
+						}
+					});
+				});
+			} else {
+				$('#showInfoBtn').hide();
+				$('#showTalkBtn').hide();
+			}
+			//获取音乐信息初始化
+			var bgmListInfo = $('input[name=live2dBGM]');
+			if (bgmListInfo.length == 0) {
+				$('#musicButton').hide();
+			} else {
+				var bgmPlayNow = parseInt($('#live2d_bgm').attr('data-bgm'));
+				var bgmPlayTime = 0;
+				var live2dBGM_Num = sessionStorage.getItem("live2dBGM_Num");
+				var live2dBGM_PlayTime = sessionStorage.getItem("live2dBGM_PlayTime");
+				if (live2dBGM_Num) {
+					if (live2dBGM_Num <= $('input[name=live2dBGM]').length - 1) {
+						bgmPlayNow = parseInt(live2dBGM_Num);
+					}
+				}
+				if (live2dBGM_PlayTime) {
+					bgmPlayTime = parseInt(live2dBGM_PlayTime);
+				}
+				var live2dBGMSrc = bgmListInfo.eq(bgmPlayNow).val();
+				$('#live2d_bgm').attr('data-bgm', bgmPlayNow);
+				$('#live2d_bgm').attr('src', live2dBGMSrc);
+				$('#live2d_bgm')[0].currentTime = bgmPlayTime;
+				$('#live2d_bgm')[0].volume = 0.5;
+				var live2dBGM_IsPlay = sessionStorage.getItem("live2dBGM_IsPlay");
+				var live2dBGM_WindowClose = sessionStorage.getItem("live2dBGM_WindowClose");
+				if (live2dBGM_IsPlay == '0' && live2dBGM_WindowClose == '0') {
+					$('#live2d_bgm')[0].play();
+					$('#musicButton').addClass('play');
+				}
+				sessionStorage.setItem("live2dBGM_WindowClose", '1');
+				$('#musicButton').on('click', function () {
+					if ($('#musicButton').hasClass('play')) {
+						$('#live2d_bgm')[0].pause();
+						$('#musicButton').removeClass('play');
+						sessionStorage.setItem("live2dBGM_IsPlay", '1');
+					} else {
+						$('#live2d_bgm')[0].play();
+						$('#musicButton').addClass('play');
+						sessionStorage.setItem("live2dBGM_IsPlay", '0');
+					}
+				});
+				window.onbeforeunload = function () {
+					sessionStorage.setItem("live2dBGM_WindowClose", '0');
+					if ($('#musicButton').hasClass('play')) {
+						sessionStorage.setItem("live2dBGM_IsPlay", '0');
+					}
+				}
+				document.getElementById('live2d_bgm').addEventListener("timeupdate", function () {
+					var live2dBgmPlayTimeNow = document.getElementById('live2d_bgm').currentTime;
+					sessionStorage.setItem("live2dBGM_PlayTime", live2dBgmPlayTimeNow);
+				});
+				document.getElementById('live2d_bgm').addEventListener("ended", function () {
+					var listNow = parseInt($('#live2d_bgm').attr('data-bgm'));
+					listNow++;
+					if (listNow > $('input[name=live2dBGM]').length - 1) {
+						listNow = 0;
+					}
+					var listNewSrc = $('input[name=live2dBGM]').eq(listNow).val();
+					sessionStorage.setItem("live2dBGM_Num", listNow);
+					$('#live2d_bgm').attr('src', listNewSrc);
+					$('#live2d_bgm')[0].play();
+					$('#live2d_bgm').attr('data-bgm', listNow);
+				});
+				document.getElementById('live2d_bgm').addEventListener("error", function () {
+					$('#live2d_bgm')[0].pause();
+					$('#musicButton').removeClass('play');
+					showMessage('音乐似乎加载不出来了呢！', 0);
+				});
+			}
+			//获取用户名
+			var live2dUser = sessionStorage.getItem("live2duser");
+			if (live2dUser !== null) {
+				$('#AIuserName').val(live2dUser);
+			}
+			//获取位置
+			var landL = sessionStorage.getItem("historywidth");
+			var landB = sessionStorage.getItem("historyheight");
+			if (landL == null || landB == null) {
+				landL = '5px'
+				landB = '0px'
+			}
+			$('#landlord').css('left', landL + 'px');
+			$('#landlord').css('bottom', landB + 'px');
+			//移动
+			function getEvent() {
+				return window.event || arguments.callee.caller.arguments[0];
+			}
+			var smcc = document.getElementById("landlord");
+			var moveX = 0;
+			var moveY = 0;
+			var moveBottom = 0;
+			var moveLeft = 0;
+			var moveable = false;
+			var docMouseMoveEvent = document.onmousemove;
+			var docMouseUpEvent = document.onmouseup;
+			smcc.onmousedown = function () {
+				var ent = getEvent();
+				moveable = true;
+				moveX = ent.clientX;
+				moveY = ent.clientY;
+				var obj = smcc;
+				moveBottom = parseInt(obj.style.bottom);
+				moveLeft = parseInt(obj.style.left);
+				if (isFirefox = navigator.userAgent.indexOf("Firefox") > 0) {
+					window.getSelection().removeAllRanges();
+				}
+				document.onmousemove = function () {
+					if (moveable) {
+						var ent = getEvent();
+						var x = moveLeft + ent.clientX - moveX;
+						var y = moveBottom + (moveY - ent.clientY);
+						obj.style.left = x + "px";
+						obj.style.bottom = y + "px";
+					}
+				};
+				document.onmouseup = function () {
+					if (moveable) {
+						var historywidth = obj.style.left;
+						var historyheight = obj.style.bottom;
+						historywidth = historywidth.replace('px', '');
+						historyheight = historyheight.replace('px', '');
+						sessionStorage.setItem("historywidth", historywidth);
+						sessionStorage.setItem("historyheight", historyheight);
+						document.onmousemove = docMouseMoveEvent;
+						document.onmouseup = docMouseUpEvent;
+						moveable = false;
+						moveX = 0;
+						moveY = 0;
+						moveBottom = 0;
+						moveLeft = 0;
+					}
+				};
+			};
+		}
+		$(document).ready(function () {
+			var AIimgSrc = [];
+			let chooseLive2d = 'aoba'
+			if (chooseLive2d === 'histoire') {
+				AIimgSrc.push(message_Path + "model/histoire/histoire.1024/texture_00.png");
+				AIimgSrc.push(message_Path + "model/histoire/histoire.1024/texture_01.png");
+				AIimgSrc.push(message_Path + "model/histoire/histoire.1024/texture_02.png");
+				AIimgSrc.push(message_Path + "model/histoire/histoire.1024/texture_03.png");
+			} else if (chooseLive2d === 'rem') {
+				AIimgSrc.push(message_Path + "model/rem/remu2048/texture_00.png");
+			} else if (chooseLive2d === 'aoba') {
+				AIimgSrc.push(message_Path + "model/aoba/textures/texture_00.png");
+			} else if (chooseLive2d === 'hijiki') {
+				AIimgSrc.push(message_Path + "model/hijiki/moc/hijiki.2048/texture_00.png");
+			} else if (chooseLive2d === 'tororo') {
+				AIimgSrc.push(message_Path + "model/tororo/moc/tororo.2048/texture_00.png");
+			}
+			var images = [];
+			var imgLength = AIimgSrc.length;
+			var loadingNum = 0;
+			for (var i = 0; i < imgLength; i++) {
+				images[i] = new Image();
+				images[i].src = AIimgSrc[i];
+				images[i].onload = function () {
+					loadingNum++;
+					if (loadingNum === imgLength) {
+						var live2dhidden = localStorage.getItem("live2dhidden");
+						if (live2dhidden === "0") {
+							setTimeout(function () {
+								$('#open_live2d').fadeIn(200);
+							}, 1300);
+						} else {
+							setTimeout(function () {
+								$('#landlord').fadeIn(200);
+							}, 1300);
+						}
+						let model = '';
+						if (chooseLive2d === 'histoire') {
+							model = message_Path + "model/histoire/model.json";
+						} else if (chooseLive2d === 'rem') {
+							model = message_Path + "model/rem/model.json";
+						} else if (chooseLive2d === 'aoba') {
+							model = message_Path + "model/aoba/model.json";
+						} else if (chooseLive2d === 'hijiki') {
+							model = message_Path + "model/hijiki/hijiki.model.json";
+						} else if (chooseLive2d === 'tororo') {
+							model = message_Path + "model/tororo/tororo.model.json";
+						}
+						setTimeout(function () {
+							loadlive2d("live2d", model);
+						}, 1000);
+						initLive2d();
+						images = null;
+					}
+				}
+			}
+		});
+	}
+</script>
+  
+  
+</div>
+<script>
+
+  let sideBarOpen = 'sidebar-open';
+  let body = document.body;
+  let back2Top = document.querySelector('#back_to_top'),
+    back2TopText = document.querySelector('#back_to_top_text'),
+    drawerBox = document.querySelector('#drawer_box'),
+    rightSideBar = document.querySelector('.sidebar'),
+    viewport = document.querySelector('body');
+
+  function scrollAnimation(currentY, targetY) {
+
+    let needScrollTop = targetY - currentY
+    let _currentY = currentY
+    setTimeout(() => {
+      const dist = Math.ceil(needScrollTop / 10)
+      _currentY += dist
+      window.scrollTo(_currentY, currentY)
+      if (needScrollTop > 10 || needScrollTop < -10) {
+        scrollAnimation(_currentY, targetY)
+      } else {
+        window.scrollTo(_currentY, targetY)
+      }
+    }, 1)
+  }
+
+  back2Top.addEventListener("click", function (e) {
+    scrollAnimation(document.scrollingElement.scrollTop, 0);
+    e.stopPropagation();
+    return false;
+  });
+
+  window.addEventListener('scroll', function (e) {
+    let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+    if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
+      back2Top.classList.add('back-top-active');
+    }
+    if (percent == 0) {
+      back2Top.classList.remove('back-top-active');
+    }
+    if (back2TopText) {
+      back2TopText.textContent = Math.floor(percent);
+    }
+  });
+
+
+  let hasCacu = false;
+  window.onresize = function () {
+    calcuHeight();
+  }
+
+  function calcuHeight() {
+    // 动态调整站点概览高度
+    if (!hasCacu && back2Top.classList.contains('pisces') || back2Top.classList.contains('gemini')) {
+      let sideBar = document.querySelector('.sidebar');
+      let navUl = document.querySelector('#site_nav');
+      sideBar.style = 'margin-top:' + (navUl.offsetHeight + navUl.offsetTop + 15) + 'px;';
+      hasCacu = true;
+    }
+  }
+  calcuHeight();
+
+  let open = false, MOTION_TIME = 300, RIGHT_MOVE_DIS = '320px';
+
+  if (drawerBox) {
+    let rightMotions = document.querySelectorAll('.right-motion');
+    let right = drawerBox.classList.contains('right');
+
+    let transitionDir = right ? "transition.slideRightIn" : "transition.slideLeftIn";
+
+    let openProp, closeProp;
+    if (right) {
+      openProp = {
+        paddingRight: RIGHT_MOVE_DIS
+      };
+      closeProp = {
+        paddingRight: '0px'
+      };
+    } else {
+      openProp = {
+        paddingLeft: RIGHT_MOVE_DIS
+      };
+      closeProp = {
+        paddingLeft: '0px'
+      };
+    }
+
+    drawerBox.onclick = function () {
+      open = !open;
+      window.Velocity(rightSideBar, 'stop');
+      window.Velocity(viewport, 'stop');
+      window.Velocity(rightMotions, 'stop');
+      if (open) {
+        window.Velocity(rightSideBar, {
+          width: RIGHT_MOVE_DIS
+        }, {
+          duration: MOTION_TIME,
+          begin: function () {
+            window.Velocity(rightMotions, transitionDir, {});
+          }
+        })
+        window.Velocity(viewport, openProp, {
+          duration: MOTION_TIME
+        });
+      } else {
+        window.Velocity(rightSideBar, {
+          width: '0px'
+        }, {
+          duration: MOTION_TIME,
+          begin: function () {
+            window.Velocity(rightMotions, {
+              opacity: 0
+            });
+          }
+        })
+        window.Velocity(viewport, closeProp, {
+          duration: MOTION_TIME
+        });
+      }
+      for (let i = 0; i < drawerBox.children.length; i++) {
+        drawerBox.children[i].classList.toggle('muse-line');
+      }
+      drawerBox.classList.toggle(sideBarOpen);
+    }
+  }
+
+  // 链接跳转
+  let newWindow = 'false'
+  if (newWindow === 'true') {
+    let links = document.querySelectorAll('.post-body a')
+    links.forEach(item => {
+      if (!item.classList.contains('btn')) {
+        item.setAttribute("target", "_blank");
+      }
+    })
+  }
+
+  let faSearch = document.querySelector('#fa_search');
+  faSearch.addEventListener('click', function () {
+    document.querySelector('#search_mask').style = ''
+  })
+
+  // 代码高亮
+  hljs.initHighlightingOnLoad();
+  
+  // 离开当前页title变化
+  var leaveTitle = "";
+  if (leaveTitle) {
+    document.addEventListener('visibilitychange', function () {
+      if (document.visibilityState == 'hidden') {
+        normal_title = document.title;
+        document.title = leaveTitle;
+      } else {
+        document.title = normal_title;
+      }
+    });
+  }
+
+</script>
+    <div class="light-box" id="light_box"></div>
+<script>
+  let imgs = document.querySelectorAll('.post-body img');
+  let lightBox = document.querySelector('#light_box');
+  lightBox.addEventListener('mousedown', (e) => {
+    e.preventDefault()
+  })
+  lightBox.addEventListener('mousewheel', (e) => {
+    e.preventDefault()
+  })
+  let width = window.innerWidth * 0.8;
+  lightBox.onclick = () => {
+    let img = lightBox.querySelector('img');
+    lightBox.style = '';
+    img && img.remove();
+  }
+  imgs.forEach(item => {
+    item.onclick = function (e) {
+      let lightImg = document.createElement('img');
+      lightImg.src = this.src;
+      lightBox.style = `height: 100%; opacity: 1; background-color: rgba(0, 0, 0, 0.5);cursor: zoom-out;`;
+      lightImg.style = `width: ${width}px;border-radius: 2px;`;
+      lightImg.onclick = function () {
+        lightBox.style = '';
+        this.remove();
+      }
+      lightBox.append(lightImg);
+    }
+  })
+</script>
+  </div>
 </body>
-<script src="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
-<script src="/media/js/index.js"></script>
+
+<div class="search-mask" id="search_mask" style="display: none;">
+  <div class="search-box">
+    <div class="search-title">
+      <i class="fa fa-search"></i>
+      <div class="input-box">
+        <input id="search" type="text" class="language" data-lan="search" placeholder="搜索">
+      </div>
+      <i id="close" class="fa fa-times-circle"></i>
+    </div>
+    <div class="stat-box">
+      <span id="stat_count">0</span><span class="language" data-lan="stat">条相关条目，使用了</span><span id="stat_times">0</span><span class="language" data-lan="stat-time">毫秒</span>
+      <hr>
+    </div>
+    <div class="result" id="result">
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://oierty.github.io/solution/"" data-c="
+          &lt;h2 id=&#34;洛谷&#34;&gt;洛谷：&lt;/h2&gt;
+&lt;h3 id=&#34;p1090合并果子&#34;&gt;&lt;a href=&#34;/solution-luogu-P1090&#34;&gt;P1090【合并果子】&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;p1706全排列问题&#34;&gt;&lt;a href=&#34;/solution-luogu-P1706&#34;&gt;P1706【全排列问题】&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;codeforces&#34;&gt;Codeforces:&lt;/h2&gt;
+&lt;h3 id=&#34;不定期更新ing&#34;&gt;不定期更新ing&lt;/h3&gt;
+">题解汇总</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://oierty.github.io/solution-luogu-P1090/"" data-c="
+          &lt;p&gt;#&lt;a href=&#34;https://www.luogu.com.cn/problem/P1090&#34;&gt;【洛谷】P1090【合并果子】&lt;/a&gt;&lt;br&gt;
+这乍看，很水的贪心：每次将最小两队合并为一堆&lt;/p&gt;
+&lt;p&gt;再一编：TLE&lt;s&gt;我去&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;于是就得用到优先队列&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;本人不是很懂，请教了旁人&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;代码如下：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cpp&#34;&gt;#include&amp;lt;bits/stdc++.h&amp;gt;
+using namespace std;
+long long n,s,t;
+priority_queue&amp;lt;int, vector&amp;lt;int&amp;gt;,greater&amp;lt;int&amp;gt; &amp;gt;q;//优先队列 
+int main(){
+	cin&amp;gt;&amp;gt;n;
+	for(int i=0;i&amp;lt;n;i++){
+		cin&amp;gt;&amp;gt;t;
+		q.push(t);//入
+	}
+	for(int i=n;i&amp;gt;1;i--){
+		t=q.top();
+		q.pop();//出
+		t+=q.top();//单次力
+		q.pop();
+		s+=t;//加入总值
+		q.push(t);//入合并好的堆
+	}
+	cout&amp;lt;&amp;lt;s;//输出
+	return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;下次不见&lt;/p&gt;
+">【洛谷】题解 P1090 【合并果子】</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://oierty.github.io/solution-luogu-P1706/"" data-c="
+          &lt;h1 id=&#34;洛谷p1706全排列问题&#34;&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1706&#34;&gt;【洛谷】P1706【全排列问题】&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;首先全排列个数就是&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mo&gt;!&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;n!&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.69444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathdefault&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;!&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;
+接下来是C++在全排列里的过程：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cpp&#34;&gt;next_permutation(a,a+n);//n表示全排列数，这可以让a[0]~a[n-1]按字典序进行下一全排列
+prev_permutation(a,a+n);//进行上一去排列
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;不多说了 贴代码：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cpp&#34;&gt;#include&amp;lt;bits/stdc++.h&amp;gt;
+using namespace std;
+int a[10],n,i,j=1,k;
+int main(){
+	scanf(&amp;quot;%d&amp;quot;,&amp;amp;n);
+	for(i=0;i&amp;lt;n;i++){
+		a[i]=n-i;//末项全排列，下一为第一个
+		j*=i+1;//算总数n!
+	}
+	for(i=0;i&amp;lt;j;i++){
+		next_permutation(a,a+n);
+		for(k=0;k&amp;lt;n;k++)printf(&amp;quot;%5d&amp;quot;,a[k]);//做场宽
+		printf(&amp;quot;\n&amp;quot;);
+	}
+	return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;就这么回事了&lt;/p&gt;
+">【洛谷】题解P1706【全排列问题】</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://oierty.github.io/int128/"" data-c="
+          &lt;p&gt;很多时候，题目的数据范围刚好卡在long long的临界范围，经过多次运算后，最后答案就有可能会爆（例如P6101 出言不逊）。&lt;/p&gt;
+&lt;p&gt;有可能只是本蒟蒻太菜，不会用其他方法，我就偶然瞟到了有人在讨论__int128这个类型，我觉得很神奇，就自己试了试，发现：&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;woc，不能用cin，cout读入输出有个鬼用&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;于是我想到了类似于快读的好东西&lt;/p&gt;
+&lt;p&gt;读入程序如下：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cpp&#34;&gt;inline void read(__int128 &amp;amp;x) {
+	x=0;
+	int f=1;//判断正负 
+	char ch=getchar();//读入字符
+	while(ch&amp;lt;&#39;0&#39;||ch&amp;gt;&#39;9&#39;) {
+		if(ch==&#39;-&#39;)
+			f=-1;
+		ch=getchar();
+	}
+	while(ch&amp;gt;=&#39;0&#39;&amp;amp;&amp;amp;ch&amp;lt;=&#39;9&#39;) {//是数字就读
+		x=x*10+ch-&#39;0&#39;;//之前结果乘10，加现在读入的
+		ch=getchar();
+	}
+	x*=f;//添上符号返回
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;输出程序如下：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cpp&#34;&gt;inline void write(__int128 x) {
+	if(x&amp;lt;0) {
+		putchar(&#39;-&#39;);//输出符号
+		x=-x;
+	}
+	if(x&amp;gt;9)write(x/10);//递归输出
+	putchar(x%10+&#39;0&#39;);//输出个位
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;以下是操作实例：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cpp&#34;&gt;#include&amp;lt;bits/stdc++.h&amp;gt;
+using namespace std;
+inline void read(__int128 &amp;amp;x) {
+	x=0;
+	int f=1;//判断正负 
+	char ch=getchar();//读入字符
+	while(ch&amp;lt;&#39;0&#39;||ch&amp;gt;&#39;9&#39;) {
+		if(ch==&#39;-&#39;)
+			f=-1;
+		ch=getchar();
+	}
+	while(ch&amp;gt;=&#39;0&#39;&amp;amp;&amp;amp;ch&amp;lt;=&#39;9&#39;) {//是数字就读
+		x=x*10+ch-&#39;0&#39;;//之前结果乘10，加现在读入的
+		ch=getchar();
+	}
+	x=x*f;//添上符号返回
+}
+inline void write(__int128 x) {
+	if(x&amp;lt;0) {
+		putchar(&#39;-&#39;);//输出符号
+		x=-x;
+	}
+	if(x&amp;gt;9)write(x/10);//递归输出
+	putchar(x%10+&#39;0&#39;);//输出个位
+}
+__int128 a,b;
+int main(){
+	read(a);//读入a
+	read(b);//读入b
+	write(a+b);//输出a+b
+	return 0;//完美结束
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;__int128范围是&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;msup&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mn&gt;127&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;≤&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;&amp;lt;&lt;/mo&gt;&lt;msup&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mn&gt;127&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;-2^{127}≤x&amp;lt; 2^{127}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.950078em;vertical-align:-0.13597em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8141079999999999em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;7&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;≤&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.5782em;vertical-align:-0.0391em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathdefault&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8141079999999999em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8141079999999999em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;7&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;。&lt;/p&gt;
+&lt;p&gt;那有时候条件是&amp;lt;$ 2^{128} $的非负整数数怎么办？&lt;/p&gt;
+&lt;p&gt;那就加个unsigned呀！&lt;/p&gt;
+&lt;p&gt;直接讲实例了：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cpp&#34;&gt;#include&amp;lt;bits/stdc++.h&amp;gt;
+using namespace std;
+inline void read(unsigned __int128 &amp;amp;x) {
+	x=0; 
+	char ch=getchar();//读入字符
+	while(ch&amp;gt;=&#39;0&#39;&amp;amp;&amp;amp;ch&amp;lt;=&#39;9&#39;) {//是数字就读
+		x=x*10+ch-&#39;0&#39;;//之前结果乘10，加现在读入的
+		ch=getchar();
+	}
+	//已经读完 
+}
+inline void write(unsigned __int128 x) {
+	if(x&amp;gt;9)write(x/10);//递归输出
+	putchar(x%10+&#39;0&#39;);//输出个位
+}
+unsigned __int128 a,b;//无符号整型
+int main(){
+	read(a);//读入a
+	read(b);//读入b
+	write(a+b);//输出a+b
+	return 0;//完美结束
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;但是大家要注意尽量少用因为内存占得很多&#34;&gt;但是大家要注意，尽量少用，因为内存占得很多&lt;/h2&gt;
+&lt;h2 id=&#34;洛谷原文&#34;&gt;&lt;a href=&#34;https://www.luogu.com.cn/blog/tangye123/qian-tan-int128-post&#34;&gt;洛谷原文&lt;/a&gt;&lt;/h2&gt;
+">浅谈__int128</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://oierty.github.io/主页/"" data-c="
+          &lt;p&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mstyle mathsize=&#34;0.9em&#34;&gt;&lt;mtext mathvariant=&#34;monospace&#34;&gt;本&lt;/mtext&gt;&lt;mstyle mathsize=&#34;2.074em&#34;&gt;&lt;msubsup&gt;&lt;mtext mathvariant=&#34;monospace&#34;&gt;人&lt;/mtext&gt;&lt;mstyle mathsize=&#34;0.9em&#34;&gt;&lt;msup&gt;&lt;mtext mathvariant=&#34;monospace&#34;&gt;的&lt;/mtext&gt;&lt;mstyle mathsize=&#34;1.2em&#34;&gt;&lt;mtext mathvariant=&#34;monospace&#34;&gt;萌新&lt;/mtext&gt;&lt;mstyle mathsize=&#34;0.9em&#34;&gt;&lt;mtext mathvariant=&#34;monospace&#34;&gt;QAQ&lt;/mtext&gt;&lt;/mstyle&gt;&lt;/mstyle&gt;&lt;/msup&gt;&lt;/mstyle&gt;&lt;mstyle mathsize=&#34;1.2em&#34;&gt;&lt;mtext mathvariant=&#34;monospace&#34;&gt;是&lt;/mtext&gt;&lt;mstyle mathsize=&#34;0.9em&#34;&gt;&lt;mtext mathvariant=&#34;monospace&#34;&gt;刚学&lt;/mtext&gt;&lt;mstyle mathsize=&#34;1.2em&#34;&gt;&lt;mtext mathvariant=&#34;monospace&#34;&gt;OI&lt;/mtext&gt;&lt;/mstyle&gt;&lt;/mstyle&gt;&lt;/mstyle&gt;&lt;/msubsup&gt;&lt;mstyle mathsize=&#34;2.074em&#34;&gt;&lt;msup&gt;&lt;mtext mathvariant=&#34;monospace&#34;&gt;无法&lt;/mtext&gt;&lt;mstyle mathsize=&#34;1.2em&#34;&gt;&lt;mtext mathvariant=&#34;monospace&#34;&gt;反&lt;/mtext&gt;&lt;mstyle mathsize=&#34;0.9em&#34;&gt;&lt;mtext mathvariant=&#34;monospace&#34;&gt;驳&lt;/mtext&gt;&lt;/mstyle&gt;&lt;/mstyle&gt;&lt;/msup&gt;&lt;mstyle mathsize=&#34;0.9em&#34;&gt;&lt;mtext mathvariant=&#34;monospace&#34;&gt;qwq&lt;/mtext&gt;&lt;/mstyle&gt;&lt;/mstyle&gt;&lt;/mstyle&gt;&lt;/mstyle&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\small\texttt{本}\huge\texttt{人}_{\small\texttt{的}^{\large\texttt{萌新}\small\texttt{QAQ}}}^{\large\texttt{是}{\small\texttt{刚学}\large\texttt{OI}}}\huge\texttt{无法}^{\large\texttt{反}{\small\texttt{驳}}}{\small\texttt{qwq}}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:2.058604em;vertical-align:-0.5724099999999999em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord text sizing reset-size6 size5&#34;&gt;&lt;span class=&#34;mord texttt cjk_fallback&#34;&gt;本&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord sizing reset-size6 size10&#34;&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord texttt cjk_fallback&#34;&gt;人&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.7165834136933462em;&#34;&gt;&lt;span style=&#34;top:-2.9240067502410803em;margin-right:0.02410800385728062em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size10 size8 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord sizing reset-size8 size5&#34;&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord texttt cjk_fallback&#34;&gt;的&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.1038133333333333em;&#34;&gt;&lt;span style=&#34;top:-3.489em;margin-right:0.05555555555555556em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size5 size2 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord text sizing reset-size2 size7&#34;&gt;&lt;span class=&#34;mord texttt cjk_fallback&#34;&gt;萌新&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord text sizing reset-size2 size5&#34;&gt;&lt;span class=&#34;mord texttt&#34;&gt;QAQ&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.563em;margin-right:0.02410800385728062em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size10 size8 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord text sizing reset-size8 size7&#34;&gt;&lt;span class=&#34;mord texttt cjk_fallback&#34;&gt;是&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord sizing reset-size8 size7&#34;&gt;&lt;span class=&#34;mord text sizing reset-size7 size5&#34;&gt;&lt;span class=&#34;mord texttt cjk_fallback&#34;&gt;刚学&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord text sizing reset-size7 size7&#34;&gt;&lt;span class=&#34;mord texttt&#34;&gt;OI&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.2759932497589199em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord sizing reset-size6 size10&#34;&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord texttt cjk_fallback&#34;&gt;无法&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.7165834136933462em;&#34;&gt;&lt;span style=&#34;top:-3.563em;margin-right:0.02410800385728062em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size10 size8 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord text sizing reset-size8 size7&#34;&gt;&lt;span class=&#34;mord texttt cjk_fallback&#34;&gt;反&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord sizing reset-size8 size7&#34;&gt;&lt;span class=&#34;mord text sizing reset-size7 size5&#34;&gt;&lt;span class=&#34;mord texttt cjk_fallback&#34;&gt;驳&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord sizing reset-size6 size10&#34;&gt;&lt;span class=&#34;mord text sizing reset-size10 size5&#34;&gt;&lt;span class=&#34;mord texttt&#34;&gt;qwq&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;
+&lt;img src=&#34;https://luogu.vercel.app/api?id=220678&amp;amp;dark_mode=true&amp;amp;hide_title=true&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://luogu.vercel.app/guzhi?id=220678&amp;amp;scores=100,6,0,6,0&amp;amp;hide_title=true&amp;amp;dark_mode=true&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;本蒟蒻没动过的cf账号&#34;&gt;&lt;strong&gt;本蒟蒻没动过的CF账号：&lt;/strong&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;&#34;&gt;&lt;a href=&#34;https://codeforces.com/profile/OIer_ty&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/OIer_ty-Unrated%20%200-808080.svg?longCache=true&amp;amp;style=for-the-badge&amp;amp;logo=Codeforces&amp;amp;link=https://codeforces.com/profile/OIer_ty&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;洛谷日报索引：&lt;br&gt;
+&lt;a href=&#34;https://www.luogu.com.cn/discuss/show/48491&#34;&gt;2018年&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.luogu.com.cn/discuss/show/92685&#34;&gt;2019年&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.luogu.com.cn/discuss/show/179788&#34;&gt;2020年&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;以下并非正事&#34;&gt;以下并非正事&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;暴力出奇迹，骗分过样例。
+数学先打表，ＤＰ靠运气。
+穷举ＴＬＥ，递推ＵＫＥ。
+模拟ＭＬＥ，贪心还ＣＥ。
+要想骗到分，就要有方法。
+图论背模板，数论背公式。
+动规背方程，高精背代码。
+如果都没背，干脆输样例。
+模拟只会猜题意,贪心只能过样例,
+数学上来先打表,动态一般看规律。
+组合数学靠运气,计算几何瞎暴力,
+图论一顿套模板,数论只会GCD。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.luogu.com.cn/upload/pic/15422.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;http://wx4.sinaimg.cn/mw690/0060lm7Tly1fsak5rti8zg306y06y45f.gif&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;http://wx2.sinaimg.cn/mw690/0060lm7Tly1fsak77zbuog30ic0c8dk7.gif&#34; alt=&#34;本人水平&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;如果说&#34;&gt;如果说&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;AC: Answer Correct 正确的答案
+CE：Compile Easily 轻松地通过编译
+PC：Pass Compile 通过编译
+WA：Wonderful Answer 极好的答案
+RE：Right Enough 太过正确
+TLE: Time Limit Enough 时间充裕
+MLE: Memory Limit Enough 内存充裕
+OLE：Output Limit Enough 输出充裕
+UKE: Unknown Exactness 不明情况地正确
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;就好了&#34;&gt;就好了&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;膜你抄
+屏幕在深夜微微发亮
+思想在那虚树路径上彷徨
+平面的向量交错生长
+织成 忧伤的网
+剪枝剪去我们的疯狂
+SPFA告诉我前途在何方
+01背包装下了忧伤
+笑颜 洋溢脸庞
+键盘微凉 鼠标微凉
+指尖流淌 代码千行
+凸包周长 直径多长
+一进考场 全都忘光
+你在OJ上提交了千百遍
+却依然不能卡进那时限
+双手敲尽代码也敲尽岁月
+只有我一人 写的题解
+凋零在OJ里面
+tarjan陪伴强联通分量
+生成树完成后思路才闪光
+欧拉跑过的七桥古塘
+让你 心驰神往
+队列进出图上的方向
+线段树区间修改求出总量
+可持久留下的迹象
+我们 俯身欣赏
+数论算法 图论算法
+高斯费马 树上开花
+线性规划 动态规划
+时间爆炸 如何优化
+我在OI中辗转了千百天
+却不让我看AK最后一眼
+我用空间换回超限的时间
+随重新编译 测完样例
+才发现漏洞满篇
+原来CE 是因选错语言
+其实爆0 只因忘写文件
+如果标算太难请坚定信念
+不如回头再看一眼题面
+以那暴力模拟向正解吊唁
+蒟蒻的蜕变 神犇出现
+终将与Au擦肩
+屏幕在深夜微微发亮
+我心在考场
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;刷题是一种出路 枚举是一种思想
+打表是一种勇气 搜索是一种信仰
+剪枝是一种精神 骗分是一种日常
+爆零是一种宿命 WA是一种绝望
+TLE是一种痛苦 RE是一种放弃
+UKE是一种无奈 AC是一种原谅
+AK是一种幻想 弃赛是一种颓废
+吊打是一种必然 进队是一种奢望
+NOI是一种梦想
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;这里是洛谷 现在面向全球各国的Oier们做最后播报 
+在过去的三十六小时里 Oier们经历了有史以来最大的刷题危机 
+在全球各国一百五十万教练的拼搏与催促下 71％的初中Oier和100％高中Oier开始全功率刷题 
+但遗憾的是目前的OI题量 已经超过全部Oier的总做题功率
+Oier错失了最后的做完题目机会 为了Oier文明之延续 
+kkksc03将启动火种计划 洛谷储藏了三十万本Oier书和一亿道题目，
+储存着全球已知的神犇名字 并设有全部Oier文明的数字资料库 
+以确保在新的OJ网站重建完整的OI文明 你们都是洛谷的英雄 我们谨记于心 
+以你们为荣 我们将肩负着你们全部的希望 
+A掉所有的黑题
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;树剖村庄，七桥古塘。写程序、豪兴徜徉。OJ几许，收尽春光。有WA红，RE紫，CE黄。
+平面向量，凸包周长。扬队列、最短路傍。偶然刷题，入洛谷冈。正dp啼，贪心舞，搜索忙。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;怒发冲冠，凭栏处、潇潇雨歇。抬望眼，满天WA，怒火激烈。三十AC尘与土，八千提交云和月。莫抄袭、没了AC记录，空悲切！
+
+CE耻，犹未雪。蒟蒻恨，何时灭！驾程序，踏破题目列表。闭眼写出省选题，笑谈猛刷NOI。待从头、收拾A+B，朝天阙。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;AC几时有，把题问OJ。
+不知记录之中，WA占几篇。 
+起舞切黑题，何似在人间！
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;江城子·高数
+拿到试卷透心凉,一紧张,公式忘,似曾相识,解法却不详,曲线几何两茫茫,看数列,泪千行。
+两小时后出考场,见同窗,共悲伤,如此成绩,无脸见爹娘,待到老师发卷日,去坟场,饮砒霜。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;江城子·挂科
+一夜复习两茫茫，看一句，忘三行，路遇友人，脸色皆凄凉，视死如归入考场，心里慌，手中忙。
+考完之后心凉凉，左右曰，今必亡，查成绩，众人皆过我独亡，再顾昔时左右人，这一群，装逼郎。
+&lt;/code&gt;&lt;/pre&gt;
+">主页</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://oierty.github.io/about/"" data-c="
+          &lt;blockquote&gt;
+&lt;p&gt;欢迎来到我的小站呀，很高兴遇见你！🤝&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;关于本站&#34;&gt;🏠 关于本站&lt;/h2&gt;
+&lt;h4 id=&#34;我&#34;&gt;&lt;strong&gt;我：&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/user/220678&#34;&gt;我自己这个蒟蒻【洛谷】&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/blog/tangye123/&#34;&gt;洛谷博客&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.cnblogs.com/oier-ty/&#34;&gt;博客园&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;我个人网站均会不定期更新&#34;&gt;&lt;strong&gt;我个人网站均会不定期更新&lt;/strong&gt;&lt;/h4&gt;
+&lt;h2 id=&#34;博主是谁&#34;&gt;👨‍💻 博主是谁&lt;/h2&gt;
+&lt;p&gt;一个死在文化课上的OIer，现就读于NBFLS。&lt;/p&gt;
+&lt;h2 id=&#34;兴趣爱好&#34;&gt;⛹ 兴趣爱好&lt;/h2&gt;
+&lt;p&gt;编程、围棋、数学、物理、化学、刷QQ。&lt;/p&gt;
+&lt;h2 id=&#34;联系我呀&#34;&gt;📬 联系我呀&lt;/h2&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://ipcounter.ihcr.top/?mode=2&amp;amp;mail=3290465230@qq.com&amp;amp;qq=3290465230&amp;amp;gh=OIerty&amp;amp;lg=OIer_ty&amp;amp;pic=Chtholly&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;没动过的cf号&#34;&gt;&lt;strong&gt;没动过的CF号：&lt;/strong&gt;&lt;/h2&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;2&#34;&gt;&lt;a href=&#34;https://codeforces.com/profile/OIer_ty&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/OIer_ty-Unrated%20%200-808080.svg?longCache=true&amp;amp;style=for-the-badge&amp;amp;logo=Codeforces&amp;amp;link=https://codeforces.com/profile/OIer_ty&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;动过的cf号&#34;&gt;&lt;strong&gt;动过的CF号：&lt;/strong&gt;&lt;/h2&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;3&#34;&gt;&lt;a href=&#34;https://codeforces.com/profile/jvruo_ty&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/jvruo_ty-pupil%20%201337-009940.svg?longCache=true&amp;amp;style=for-the-badge&amp;amp;logo=Codeforces&amp;amp;link=https://codeforces.com/profile/jvruo_ty&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/a&gt;&lt;/figure&gt;
+">关于</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://oierty.github.io/contents/"" data-c="
+          &lt;h2 id=&#34;题解&#34;&gt;&lt;a href=&#34;/solution&#34;&gt;题解&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;关于&#34;&gt;&lt;a href=&#34;/about-me&#34;&gt;关于&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;不定期更新ing&#34;&gt;不定期更新ing&lt;/h3&gt;
+">目录</a>
+      </div>
+      
+    </div>
+    <div class="page">
+      <div id="page_ul"></div>
+    </div>
+  </div>
+</div>
+<script>
+  !function () {
+    let searchMask = document.querySelector('#search_mask');
+    let result = document.querySelector('#result');
+    let items = document.querySelectorAll('.item');
+    let searchBox = document.querySelector('#search');
+    let statCount = document.querySelector('#stat_count');
+    let statTimes = document.querySelector('#stat_times');
+    let pageUl = document.querySelector('#page_ul');
+    let close = document.querySelector('#close');
+    
+    close.addEventListener('click', function() {
+      searchMask.style = 'display: none;'
+    })
+
+    let finds = [];
+    let contents = [];
+    let pageSize = 10;
+    items.forEach(item => {
+      let a = item.querySelector('a');
+      contents.push({
+        title: a.innerText,
+        details: a.dataset.c,
+        link: a.href
+      })
+      item.remove();
+    })
+
+    function insertStr(soure, start, count) {
+      let newStr = soure.substr(start, count);
+      return soure.slice(0, start) + '<em>' + newStr + '</em>' + soure.slice(start + count);
+    }
+
+    pageUl.addEventListener('click', function(event) {
+      let target = event.target;
+      if (target.__proto__ === HTMLSpanElement.prototype) {
+        appendResults(parseInt(target.dataset.i));
+      }
+    })
+
+    function appendResults(index) {
+      let htmlResult = '';
+      let start = index || 0;
+      let end = Math.min(start + pageSize, finds.length);
+      for (let i = start; i < end; i++) {
+        const current = finds[i];
+        let html = current.title;
+        let sum = 0;
+        let positions = current.positions;
+        positions.forEach(position => {
+          html = insertStr(html, position.start + sum, position.count);
+          sum += 9;
+        })
+        htmlResult += `<div class="item"><a class="result-title" href="${current.link}">${html}</a></div>`;
+      }
+      result.innerHTML = htmlResult;
+      pageUl.innerHTML = '';
+      let count = finds.length / pageSize;
+      let lis = '';
+      if (start !== 0) {
+        lis += `<span class="fa fa-angle-left" data-i='${start - 1}'></span>`;
+      }
+      for (let i = 0; i < count; i++) {
+        lis += `<span class='${i === start?'current':''}' data-i='${i}'>${i+1}</span>`;     
+      }
+      if (start+1 < count) {
+        lis += `<span class="fa fa-angle-right" data-i='${start+1}'></span>`;  
+      }
+      pageUl.innerHTML = lis;
+    }
+
+    function search(delay) {
+      let timer = null
+      return function () {
+        clearTimeout(timer)
+        timer = setTimeout(() => {
+          let start = Date.now();
+          let segments = searchBox.value.split(' ').filter(c => c != '');
+          if (segments.length <= 0) {
+            return;
+          }
+          finds = [];
+          let htmlResult = '';
+          contents.forEach(content => {
+            let title = content.title;
+            let positions = [];
+            let find = false;
+            segments.forEach((segment) => {
+              if (content.title.includes(segment)) {
+                find = true;
+                positions.push({
+                  start: content.title.indexOf(segment),
+                  count: segment.length
+                })
+              } else if (content.details.includes(segment)) {
+                find = true;
+              }
+            });
+            if (find) {
+              finds.push({
+                title: content.title,
+                link: content.link,
+                positions
+              });
+            }
+          })
+          appendResults(0);
+          statCount.textContent = finds.length;
+          statTimes.textContent = Date.now() - start;
+        }, delay)
+      }
+    }
+    searchBox.addEventListener('input', search(200));
+  }()
+</script>
+
+<input hidden id="copy" />
+<script>
+  !function () {
+    let times = document.querySelectorAll('.publish-time');
+    for (let i = 0; i < times.length; i++) {
+      let date = times[i].dataset.t;
+      let time = Math.floor((new Date().getTime() - new Date(date).getTime()) / 1000);
+      if (time < 60) {
+        str = time + '秒之前';
+      } else if (time < 3600) {
+        str = Math.floor(time / 60) + '分钟之前';
+      } else if (time >= 3600 && time < 86400) {
+        str = Math.floor(time / 3600) + '小时之前';
+      } else if (time >= 86400 && time < 259200) {
+        str = Math.floor(time / 86400) + '天之前';
+      } else {
+        str = times[i].textContent;
+      }
+      times[i].textContent = str;
+    }
+  }();
+</script>
+
+<script>
+  let language = '';
+  if (language !== '') {
+    let map = new Map();
+    if (language === 'en') {
+      map.set('search', 'Search');
+      map.set('category', 'Categories');
+      map.set('article', 'Articles');
+      map.set('tag', 'Tags');
+      map.set('top', 'Top');
+      map.set('publish', 'published');
+      map.set('minute', ' minutes');
+      map.set('read-more', 'Read More');
+      map.set('view', 'View');
+      map.set('words', ' words');
+      map.set('category-in', 'category in');
+      map.set('preview', 'Meta');
+      map.set('index', 'Toc');
+      map.set('no-archives', "You haven't created yet");
+      map.set('archives', " articles in total");
+      map.set('cloud-tags', " tags in total");
+      map.set('copyright', "Copyright: ");
+      map.set('author', "Author: ");
+      map.set('link', "Link: ");
+      map.set('leave-message', "Leave a message");
+      map.set('format', "Links Format");
+      map.set('site-name', "Name: ");
+      map.set('site-link', "Link: ");
+      map.set('site-desc', "Desc: ");
+      map.set('stat', " related results, taking ");
+      map.set('stat-time', " ms");
+      map.set('site-img', "Image: ");
+    }
+
+    if (map.size > 0) {
+      let lanElems = document.querySelectorAll('.language');
+      lanElems.forEach(elem => {
+        let lan = elem.dataset.lan, text = map.get(lan);
+        if (elem.__proto__ === HTMLInputElement.prototype) {
+          elem.placeholder = text
+        } else {
+          if (elem.dataset.count) {
+            text = elem.dataset.count + text;
+          }
+          elem.textContent = text;
+        }
+      })
+    }
+  }
+  //拿来主义(真香)^_^，Clipboard 实现摘自掘金 https://juejin.im/post/5aefeb6e6fb9a07aa43c20af
+  window.Clipboard = (function (window, document, navigator) {
+    var textArea,
+      copy;
+
+    // 判断是不是ios端
+    function isOS() {
+      return navigator.userAgent.match(/ipad|iphone/i);
+    }
+    //创建文本元素
+    function createTextArea(text) {
+      textArea = document.createElement('textArea');
+      textArea.value = text;
+      textArea.style.width = 0;
+      textArea.style.height = 0;
+      textArea.clientHeight = 0;
+      textArea.clientWidth = 0;
+      document.body.appendChild(textArea);
+    }
+    //选择内容
+    function selectText() {
+      var range,
+        selection;
+
+      if (isOS()) {
+        range = document.createRange();
+        range.selectNodeContents(textArea);
+        selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        textArea.setSelectionRange(0, 999999);
+      } else {
+        textArea.select();
+      }
+    }
+
+    //复制到剪贴板
+    function copyToClipboard() {
+      try {
+        document.execCommand("Copy")
+      } catch (err) {
+        alert("复制错误！请手动复制！")
+      }
+      document.body.removeChild(textArea);
+    }
+
+    copy = function (text) {
+      createTextArea(text);
+      selectText();
+      copyToClipboard();
+    };
+
+    return {
+      copy: copy
+    };
+  })(window, document, navigator);
+
+  function copyCode(e) {
+    if (e.srcElement.tagName === 'SPAN' && e.srcElement.classList.contains('copy-code')) {
+      let code = e.currentTarget.querySelector('code');
+      var text = code.innerText;
+      if (e.srcElement.textContent === '复制成功') {
+        return;
+      }
+      e.srcElement.textContent = '复制成功';
+      (function (elem) {
+        setTimeout(() => {
+          if (elem.textContent === '复制成功') {
+            elem.textContent = '复制代码'
+          }
+        }, 1000);
+      })(e.srcElement)
+      Clipboard.copy(text);
+    }
+  }
+
+  let pres = document.querySelectorAll('pre');
+  pres.forEach(pre => {
+    let code = pre.querySelector('code');
+    let copyElem = document.createElement('span');
+    copyElem.classList.add('copy-code');
+    copyElem.textContent = '复制代码';
+    pre.appendChild(copyElem);
+    pre.onclick = copyCode
+  })
+
+</script>
+<script src="/media/js/motion.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 200
+  });
+</script>
+
+
+<script src="/media/js/mouse/peace.js"></script>
+
+
+
+
+
 </html>
