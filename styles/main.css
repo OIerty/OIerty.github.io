@@ -2184,11 +2184,11 @@ p > code {
     }body {
       cursor: default;
     }a {
-      cursor: url('/media/curs/这都被你发现了.cur'), pointer !important;
+      cursor: pointer;
     }input, textarea, code {
       cursor: text;
     }code > span.copy-code {
-      cursor: url('/media/curs/转载记得注明出处哦！.cur'), text !important;
+      cursor: pointer;
     }.post img {
       cursor: zoom-in;
     }.post img {

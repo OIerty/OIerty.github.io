@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://oierty.github.io</id>
     <title>TY&apos;s Blog</title>
-    <updated>2020-10-31T02:56:17.521Z</updated>
+    <updated>2020-10-31T03:56:15.993Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://oierty.github.io"/>
     <link rel="self" href="https://oierty.github.io/atom.xml"/>
@@ -10,6 +10,163 @@
     <logo>https://oierty.github.io/images/avatar.png</logo>
     <icon>https://oierty.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, TY&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[NOI online 2020游记]]></title>
+        <id>https://oierty.github.io/noi-online-2020-travel-notes/</id>
+        <link href="https://oierty.github.io/noi-online-2020-travel-notes/">
+        </link>
+        <updated>2020-10-31T03:29:03.000Z</updated>
+        <content type="html"><![CDATA[<pre><code>游记：
+	3月7日下午，NOI online入门组在2:30开始了。
+	然而，ZJ以及全国多地的网站都在2:35左右就死亡了，于是，CCF在3:10的时候，把这些网站的源代码植入到了其他网站之中。
+仅仅两分钟后，这些诈尸了的网站大部分又死了，ZJ及多省的考生等啊等，大家都说，再给我一次机会考试吧（炸网站吧）。
+	三个小时以后，很多地方已经考完了，ZJ考生决定拿个枕头放电脑前（其实是把电脑放床上啦），CCF又移植了一个土豆服务器，两分钟后，又炸完了，ZJ考生纷纷表示，如果CCF不搞个好些的服务器，ZJ考生人均爆零。于是，在CCF土豆服务器死亡５个小时以后，CCF把官网的子域名拿来用，终于，疲惫不堪的考生们又敲起了键盘，大家表示新服务器的流畅超乎想象（虽然中间还是炸过），于是考生就奋战到了23:30。
+	第一次国内比赛熬夜祭！
+</code></pre>
+<p>入门组难度，洛谷评分：普及/提高-，省选/NOI-，省选/NOI-</p>
+<p>考入门组就考出了弱省省选的感觉。</p>
+<h1 id="以下是入门组题解题解">以下是入门组题解题解：</h1>
+<h2 id="t1-洛谷题面">T1: <a href="https://www.luogu.com.cn/problem/P6188">洛谷题面</a></h2>
+<p>这道题看起来是很简单的题</p>
+<h3 id="方法一暴力俗话说暴力出奇迹由于部分分很足暴力足以得90pts">方法一：暴力<s>俗话说，暴力出奇迹</s>，由于部分分很足，暴力足以得<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>90</mn><mi>p</mi><mi>t</mi><mi>s</mi></mrow><annotation encoding="application/x-tex">90pts</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord">9</span><span class="mord">0</span><span class="mord mathdefault">p</span><span class="mord mathdefault">t</span><span class="mord mathdefault">s</span></span></span></span></h3>
+<p><em>90pts</em>  <em>code</em> 这是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>L</mi><mi>a</mi><mi>t</mi><mi>t</mi><mi>l</mi><mi>e</mi><mi mathvariant="normal">_</mi><mi>c</mi><mi>a</mi><mi>r</mi></mrow><annotation encoding="application/x-tex">Lattle\_car</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.00444em;vertical-align:-0.31em;"></span><span class="mord mathdefault">L</span><span class="mord mathdefault">a</span><span class="mord mathdefault">t</span><span class="mord mathdefault">t</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">e</span><span class="mord" style="margin-right:0.02778em;">_</span><span class="mord mathdefault">c</span><span class="mord mathdefault">a</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span></span></span></span> 大佬看错限制的初次代码</p>
+<pre><code class="language-cpp">#include &lt;bits/stdc++.h&gt;
+using namespace std;
+int a,b,c;
+int ansa,ansb,ansc;
+int n;
+int maxsum=-1,maxmin=-1;
+bool flag=1;
+int main()
+{
+  freopen(&quot;order.in&quot;,&quot;r&quot;,stdin);
+  freopen(&quot;order.out&quot;,&quot;w&quot;,stdout);
+  cin&gt;&gt;n;
+  if(n&lt;3)
+  {
+    cout&lt;&lt;-1;
+    return 0;
+  }
+  for(a=0; a&lt;=n/7; a++)
+    for(b=0; b&lt;=n/4; b++)
+      for(c=0; c&lt;=n/3; c++)
+      {
+        int sum=a+b+c;
+        int minn=min(a,min(b,c));
+        int kkk=7*a+4*b+3*c;
+        if(kkk==n)
+        {
+          flag=0;
+          if(minn&gt;maxmin)
+          {
+            ansa=a;
+            ansb=b;
+            ansc=c;
+            maxsum=sum;
+            maxmin=minn;
+          }
+          else if(minn==maxmin&amp;&amp;maxsum&lt;sum)
+          {
+            ansa=a;
+            ansb=b;
+            ansc=c;
+            maxsum=sum;
+            maxmin=minn;
+          }
+        }
+      }
+  if(flag) cout&lt;&lt;-1;
+  else cout&lt;&lt;ansa&lt;&lt;' '&lt;&lt;ansb&lt;&lt;' '&lt;&lt;ansc;
+  return 0;
+}
+</code></pre>
+<h3 id="正解打表俗话又说数学上来先打表">正解：打表<s>俗话又说，数学上来先打表</s></h3>
+<p>我们可以发现一个规律：除了<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><mo separator="true">,</mo><mn>2</mn><mo separator="true">,</mo><mn>5</mn></mrow><annotation encoding="application/x-tex">1,2,5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">2</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">5</span></span></span></span>其他都能找出正确方法，然后又发现能找出方法的，每加14，最优解的各个方案数都加上1，如：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">n</th>
+<th style="text-align:center">3</th>
+<th style="text-align:center">17</th>
+<th style="text-align:center">31</th>
+<th style="text-align:center">...</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">ans</td>
+<td style="text-align:center">{0,0,1}</td>
+<td style="text-align:center">{1,1,2}</td>
+<td style="text-align:center">{2,2,3}</td>
+<td style="text-align:center">...</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">n</th>
+<th style="text-align:center">10</th>
+<th style="text-align:center">24</th>
+<th style="text-align:center">38</th>
+<th style="text-align:center">...</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">ans</td>
+<td style="text-align:center">{0,0,1}</td>
+<td style="text-align:center">{1,1,2}</td>
+<td style="text-align:center">{2,2,3}</td>
+<td style="text-align:center">...</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">n</th>
+<th style="text-align:center">14</th>
+<th style="text-align:center">28</th>
+<th style="text-align:center">42</th>
+<th style="text-align:center">...</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">ans</td>
+<td style="text-align:center">{1,1,1}</td>
+<td style="text-align:center">{2,2,2}</td>
+<td style="text-align:center">{3,3,3}</td>
+<td style="text-align:center">...</td>
+</tr>
+</tbody>
+</table>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">.</mi><mi mathvariant="normal">.</mi><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex">...</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.10556em;vertical-align:0em;"></span><span class="mord">.</span><span class="mord">.</span><span class="mord">.</span></span></span></span></p>
+<p>然后我们只要在一些不成立的数特判一下就好了。</p>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>C</mi><mo>+</mo><mo>+</mo></mrow><annotation encoding="application/x-tex">C++</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.76666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">+</span></span></span></span> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>A</mi><mi>C</mi></mrow><annotation encoding="application/x-tex">AC</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span></span></span></span> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>c</mi><mi>o</mi><mi>d</mi><mi>e</mi><mo>:</mo></mrow><annotation encoding="application/x-tex">code:</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">c</span><span class="mord mathdefault">o</span><span class="mord mathdefault">d</span><span class="mord mathdefault">e</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span></span></span></p>
+<pre><code class="language-cpp">#include&lt;bits/stdc++.h&gt;
+using namespace std;
+int n,m;
+int a[28][3]={{0},{-1},{-1},{1},{0,1},{-1},{2},{1,1},{0,2},{3},{2,1},{1,2},{4},{3,1},{0},{5},{4,1},{2,1,1},{1,2,1},{5,1},{3,1,1},{2,2,1},{1,3,1},{4,1,1},{3,2,1},{2,3,1},{5,1,1},{4,2,1}};//打表
+int main() {
+	freopen(&quot;order.in&quot;,&quot;r&quot;,stdin);
+	freopen(&quot;order.out&quot;,&quot;w&quot;,stdout);//文件输入输出流
+	cin&gt;&gt;n;
+	if(n%14==0)printf(&quot;%d %d %d&quot;,n/14,n/14,n/14);//n为14倍数时
+	else if(n&lt;14) {//特判
+    if(a[n][0]!=-1)printf(&quot;%d %d %d&quot;,a[n][2],a[n][1],a[n][0]);
+		else cout&lt;&lt;-1;
+	} else {//常规规律
+		if(a[n%14+14][0]!=-1)printf(&quot;%d %d %d&quot;,a[n%14+14][2]+n/14-1,a[n%14+14][1]+n/14-1,a[n%14+14][0]+n/14-1);
+		else cout&lt;&lt;-1;
+	}
+	return 0;//函数返回0
+}
+</code></pre>
+<p>未完待续……</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[题解汇总]]></title>
         <id>https://oierty.github.io/solution/</id>
@@ -29,8 +186,8 @@
         <link href="https://oierty.github.io/solution-luogu-P1090/">
         </link>
         <updated>2020-02-28T05:46:01.000Z</updated>
-        <content type="html"><![CDATA[<p>#<a href="https://www.luogu.com.cn/problem/P1090">【洛谷】P1090【合并果子】</a><br>
-这乍看，很水的贪心：每次将最小两队合并为一堆</p>
+        <content type="html"><![CDATA[<h1 id="洛谷p1090合并果子"><a href="https://www.luogu.com.cn/problem/P1090">【洛谷】P1090【合并果子】</a></h1>
+<p>这乍看，很水的贪心：每次将最小两队合并为一堆</p>
 <p>再一编：TLE<s>我去</s></p>
 <p>于是就得用到优先队列</p>
 <p><s>本人不是很懂，请教了旁人</s></p>
@@ -197,8 +354,8 @@ int main(){
     </entry>
     <entry>
         <title type="html"><![CDATA[主页]]></title>
-        <id>https://oierty.github.io/主页/</id>
-        <link href="https://oierty.github.io/主页/">
+        <id>https://oierty.github.io/home/</id>
+        <link href="https://oierty.github.io/home/">
         </link>
         <updated>2020-02-27T02:00:00.000Z</updated>
         <content type="html"><![CDATA[<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathsize="0.9em"><mtext mathvariant="monospace">本</mtext><mstyle mathsize="2.074em"><msubsup><mtext mathvariant="monospace">人</mtext><mstyle mathsize="0.9em"><msup><mtext mathvariant="monospace">的</mtext><mstyle mathsize="1.2em"><mtext mathvariant="monospace">萌新</mtext><mstyle mathsize="0.9em"><mtext mathvariant="monospace">QAQ</mtext></mstyle></mstyle></msup></mstyle><mstyle mathsize="1.2em"><mtext mathvariant="monospace">是</mtext><mstyle mathsize="0.9em"><mtext mathvariant="monospace">刚学</mtext><mstyle mathsize="1.2em"><mtext mathvariant="monospace">OI</mtext></mstyle></mstyle></mstyle></msubsup><mstyle mathsize="2.074em"><msup><mtext mathvariant="monospace">无法</mtext><mstyle mathsize="1.2em"><mtext mathvariant="monospace">反</mtext><mstyle mathsize="0.9em"><mtext mathvariant="monospace">驳</mtext></mstyle></mstyle></msup><mstyle mathsize="0.9em"><mtext mathvariant="monospace">qwq</mtext></mstyle></mstyle></mstyle></mstyle></mrow><annotation encoding="application/x-tex">\small\texttt{本}\huge\texttt{人}_{\small\texttt{的}^{\large\texttt{萌新}\small\texttt{QAQ}}}^{\large\texttt{是}{\small\texttt{刚学}\large\texttt{OI}}}\huge\texttt{无法}^{\large\texttt{反}{\small\texttt{驳}}}{\small\texttt{qwq}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.058604em;vertical-align:-0.5724099999999999em;"></span><span class="mord text sizing reset-size6 size5"><span class="mord texttt cjk_fallback">本</span></span><span class="mord sizing reset-size6 size10"><span class="mord text"><span class="mord texttt cjk_fallback">人</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.7165834136933462em;"><span style="top:-2.9240067502410803em;margin-right:0.02410800385728062em;"><span class="pstrut" style="height:3.2em;"></span><span class="sizing reset-size10 size8 mtight"><span class="mord mtight"><span class="mord sizing reset-size8 size5"><span class="mord text"><span class="mord texttt cjk_fallback">的</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.1038133333333333em;"><span style="top:-3.489em;margin-right:0.05555555555555556em;"><span class="pstrut" style="height:3.2em;"></span><span class="sizing reset-size5 size2 mtight"><span class="mord mtight"><span class="mord text sizing reset-size2 size7"><span class="mord texttt cjk_fallback">萌新</span></span><span class="mord text sizing reset-size2 size5"><span class="mord texttt">QAQ</span></span></span></span></span></span></span></span></span></span></span></span></span><span style="top:-3.563em;margin-right:0.02410800385728062em;"><span class="pstrut" style="height:3.2em;"></span><span class="sizing reset-size10 size8 mtight"><span class="mord mtight"><span class="mord text sizing reset-size8 size7"><span class="mord texttt cjk_fallback">是</span></span><span class="mord sizing reset-size8 size7"><span class="mord text sizing reset-size7 size5"><span class="mord texttt cjk_fallback">刚学</span></span><span class="mord text sizing reset-size7 size7"><span class="mord texttt">OI</span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2759932497589199em;"><span></span></span></span></span></span></span><span class="mord sizing reset-size6 size10"><span class="mord text"><span class="mord texttt cjk_fallback">无法</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7165834136933462em;"><span style="top:-3.563em;margin-right:0.02410800385728062em;"><span class="pstrut" style="height:3.2em;"></span><span class="sizing reset-size10 size8 mtight"><span class="mord mtight"><span class="mord text sizing reset-size8 size7"><span class="mord texttt cjk_fallback">反</span></span><span class="mord sizing reset-size8 size7"><span class="mord text sizing reset-size7 size5"><span class="mord texttt cjk_fallback">驳</span></span></span></span></span></span></span></span></span></span></span><span class="mord sizing reset-size6 size10"><span class="mord text sizing reset-size10 size5"><span class="mord texttt">qwq</span></span></span></span></span></span><br>
