@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://oierty.github.io</id>
     <title>TY&apos;s Blog</title>
-    <updated>2020-11-01T00:57:51.931Z</updated>
+    <updated>2020-11-01T01:08:48.385Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://oierty.github.io"/>
     <link rel="self" href="https://oierty.github.io/atom.xml"/>
@@ -16,16 +16,15 @@
         <link href="https://oierty.github.io/noi-online-2020-travel-notes/">
         </link>
         <updated>2020-10-31T03:29:03.000Z</updated>
-        <content type="html"><![CDATA[<pre><code>游记：
-	3月7日下午，NOI online入门组在2:30开始了。
-	然而，ZJ以及全国多地的网站都在2:35左右就死亡了，于是，CCF在3:10的时候，把这些网站的源代码植入到了其他网站之中。
-仅仅两分钟后，这些诈尸了的网站大部分又死了，ZJ及多省的考生等啊等，大家都说，再给我一次机会考试吧（炸网站吧）。
-	三个小时以后，很多地方已经考完了，ZJ考生决定拿个枕头放电脑前（其实是把电脑放床上啦），CCF又移植了一个土豆服务器，两分钟后，又炸完了，ZJ考生纷纷表示，如果CCF不搞个好些的服务器，ZJ考生人均爆零。于是，在CCF土豆服务器死亡５个小时以后，CCF把官网的子域名拿来用，终于，疲惫不堪的考生们又敲起了键盘，大家表示新服务器的流畅超乎想象（虽然中间还是炸过），于是考生就奋战到了23:30。
-	第一次国内比赛熬夜祭！
-</code></pre>
+        <content type="html"><![CDATA[<h2 id="游记">游记：</h2>
+<p>3月7日下午，NOI online入门组在2:30开始了。</p>
+<p>然而，ZJ以及全国多地的网站都在2:35左右就死亡了，于是，CCF在3:10的时候，把这些网站的源代码植入到了其他网站之中。</p>
+<p>仅仅两分钟后，这些诈尸了的网站大部分又死了，ZJ及多省的考生等啊等，大家都说，再给我一次机会考试吧（炸网站吧）。</p>
+<p>三个小时以后，很多地方已经考完了，ZJ考生决定拿个枕头放电脑前（其实是把电脑放床上啦），CCF又移植了一个土豆服务器，两分钟后，又炸完了，ZJ考生纷纷表示，如果CCF不搞个好些的服务器，ZJ考生人均爆零。于是，在CCF土豆服务器死亡５个小时以后，CCF把官网的子域名拿来用，终于，疲惫不堪的考生们又敲起了键盘，大家表示新服务器的流畅超乎想象（虽然中间还是炸过），于是考生就奋战到了23:30。</p>
+<p>第一次国内比赛熬夜祭！</p>
 <p>入门组难度，洛谷评分：普及/提高-，省选/NOI-，省选/NOI-</p>
 <p>考入门组就考出了弱省省选的感觉。</p>
-<h1 id="以下是入门组题解题解">以下是入门组题解题解：</h1>
+<h2 id="以下是入门组题解题解">以下是入门组题解题解：</h2>
 <h2 id="t1-洛谷题面">T1: <a href="https://www.luogu.com.cn/problem/P6188">洛谷题面</a></h2>
 <p>这道题看起来是很简单的题</p>
 <h3 id="方法一暴力俗话说暴力出奇迹由于部分分很足暴力足以得90pts">方法一：暴力<s>俗话说，暴力出奇迹</s>，由于部分分很足，暴力足以得<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>90</mn><mi>p</mi><mi>t</mi><mi>s</mi></mrow><annotation encoding="application/x-tex">90pts</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord">9</span><span class="mord">0</span><span class="mord mathdefault">p</span><span class="mord mathdefault">t</span><span class="mord mathdefault">s</span></span></span></span></h3>
