@@ -9,7 +9,7 @@
 <meta name="description" content="一个蒟蒻的blog">
 <meta name="theme-color" content="#000">
 <title>关于 | TY&#39;s Blog</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1605930597033">
+<link rel="shortcut icon" href="/favicon.ico?v=1606612289843">
 <link rel="stylesheet" href="/media/css/pisces.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
@@ -659,28 +659,54 @@
             
             
             
-  
-    
-      <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
+<div id="vcomments" style="padding: 10px 0px 0px 0px"></div>
 
-<div id="gitalk-container"></div>
+<style>
+  .v .veditor {
+    min-height: 10rem;
+    background-image: url('');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: rgba(255, 255, 255, 0);
+    resize: none;
+  }
 
+  .v .vwrap {
+    border: 1px solid #000 !important;
+  }
+
+  .v .vbtn {
+    padding: .4rem 1.2rem !important;
+    border-color: #fff !important;
+    background-color: #49b1f5 !important;
+    color: #fff !important;
+    font-size: .7rem !important;
+  }
+
+  .v .vcards .vcard .vh .vmeta .vat {
+    padding: 0 .8rem !important;
+    border: 1px solid #00c4b6 !important;
+    border-radius: 5px !important;
+    color: #00c4b6 !important;
+  }
+</style>
 <script>
-  var gitalk = new Gitalk({
-    clientID: 'd7bfa381ba6e83afdd0c',
-    clientSecret: 'd0a5be1550b73e4582b0e0844893f17926bd93ad ',
-    repo: 'comments',
-    owner: 'OIerty',
-    admin: ['OIerty'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-  gitalk.render('gitalk-container')
+  new Valine({
+    el: '#vcomments',
+    appId: 'OVqLLeFwBIl7xFRdhubb0pqi-gzGzoHsz',
+    appKey: 'QofP2Aq6AT9ycge30bnA6wmp',
+    avatar: '',
+    placeholder: '发表您的评论',
+    pageSize: '',
+    lang: 'zh-cn',
+    enableQQ: 'true' === 'false',
+    visitor: 'true' === 'true',
+    highlight: 'true' === 'true',
+    avatarForce: 'true' === 'false',
+  });
 </script>
-    
-    
-  
 
           </div>
         </div>
@@ -714,7 +740,7 @@
   <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
   <div class="aplayer" id="aplayer"></div>
   <script>
-  let musics = JSON.parse('[{"author":"洛天依","cover":"","lrc":"","musicLink":"https://oierty.gitee.io/Music/洛天依 - 青花瓷OI版.mp3","musicName":"青花瓷OI版"},{"author":"葛平","cover":"https://oierty.gitee.io/Music/AK杀.jpg","lrc":"","musicLink":"https://oierty.gitee.io/Music/AK杀.mp3","musicName":"【OI】AK杀"},{"author":"洛天依","cover":"https://oierty.gitee.io/Music/霜雪千年.jpg","lrc":"","musicLink":"https://oierty.gitee.io/Music/霜雪千年.mp3","musicName":"【OI】霜雪千年"},{"author":"洛天依/Chilichili","cover":"http://p2.music.126.net/JyF6_2QvPlLSuXSgYDwi0Q==/109951164896130416.jpg","lrc":"","musicLink":"https://oierty.gitee.io/Music/ChiliChill,洛天依 - 我的悲伤是水做的.mp3","musicName":"我的悲伤是水做的"}]');
+  let musics = JSON.parse('[{"author":"洛天依","cover":"https://oierty.gitee.io/Music/青花瓷OI版.jpg","lrc":"","musicLink":"https://oierty.gitee.io/Music/洛天依 - 青花瓷OI版.mp3","musicName":"青花瓷OI版"},{"author":"葛平","cover":"https://oierty.gitee.io/Music/AK杀.jpg","lrc":"","musicLink":"https://oierty.gitee.io/Music/AK杀.mp3","musicName":"【OI】AK杀"},{"author":"洛天依","cover":"https://oierty.gitee.io/Music/霜雪千年.jpg","lrc":"","musicLink":"https://oierty.gitee.io/Music/霜雪千年.mp3","musicName":"【OI】霜雪千年"},{"author":"洛天依/Chilichili","cover":"http://p2.music.126.net/JyF6_2QvPlLSuXSgYDwi0Q==/109951164896130416.jpg","lrc":"","musicLink":"https://oierty.gitee.io/Music/ChiliChill,洛天依 - 我的悲伤是水做的.mp3","musicName":"我的悲伤是水做的"}]');
   let mediaMusic = [];
   for (let i = 0; i < musics.length; i++) {
     let item = musics[i];
