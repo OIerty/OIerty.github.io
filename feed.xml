@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Infel&#39;s Blog</title>
+    <link>https://oierty.github.io/</link>
+    <description>Welcome to Infel&#39;s Blog</description>
+    <language>zh-cn</language>
+    <generator>Gridea Pro</generator>
+    <lastBuildDate>Wed, 06 May 2026 02:47:50 +0800</lastBuildDate>
+    <atom:link href="https://oierty.github.io/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <item>
+      <title>ABOUT ME</title>
+      <link>https://oierty.github.io/post/about/</link>
+      <guid isPermaLink="true">https://oierty.github.io/post/about/</guid>
+      <pubDate>Wed, 06 May 2026 02:44:04 +0800</pubDate>
+      <description><![CDATA[<!-- flag{50m3thing_4b0ut_m3} -->
+<h3 id="heading">关于我</h3>
+<p>25级本科生，CS相关在读</p>
+<h3 id="heading-1">关于我的博客</h3>
+<p>初中时看到洛谷日报用Gridea搭建博客很方便，就尝试弄了一个，后面6年没更新了</p>
+<p>看到朋友搭建自己博客想起来这么个事，搜了一下，发现刚好不久前有人做了Gridea Pro，好像还挺有缘，初一的Gridea到大一的Gridea Pro，就想着能不能继续，结果把以前的内容都丢了。</p>
+<h3 id="heading-2">你能在这里看到什么</h3>
+<ul>
+<li>ACM训练笔记（也许）</li>
+<li>CTF探索笔记（大概）</li>
+<li>一些不知道该归到哪一类的碎碎念</li>
+</ul>
+<h3 id="heading-3">找到我</h3>
+<ul>
+<li>GitHub: <a href="https://github.com/oierty">oierty</a></li>
+<li>Email: <a href="mailto:oierty@qq.com">oierty@qq.com</a></li>
+</ul>
+<hr />
+<p>本站使用 <a href="https://www.gridea.pro/">Gridea Pro</a> 搭建。</p>
+<!-- more -->
+<!-- more -->]]></description>
+    </item>
+  </channel>
+</rss>
