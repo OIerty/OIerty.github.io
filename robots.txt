@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://oierty.github.io/sitemap.xml
+Sitemap: https://infe1.github.io/sitemap.xml
