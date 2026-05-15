@@ -6,7 +6,7 @@
     <description>Welcome to Infel&#39;s Blog</description>
     <language>zh-cn</language>
     <generator>Gridea Pro</generator>
-    <lastBuildDate>Sat, 16 May 2026 03:02:12 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 04:37:52 +0800</lastBuildDate>
     <atom:link href="https://infe1.github.io/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <item>
       <title>转专业记录</title>
@@ -45,6 +45,8 @@
 <h2 id="heading-5">尾声</h2>
 <p>三年后毕业时，我是否又会想起那个报名了转计的下午，那个准备着笔试面试的深夜？</p>
 ]]></description>
+      <category>记录</category>
+      <enclosure url="https://infe1.github.io/post-images/remajor-record.jpg" length="0" type="image/jpeg"></enclosure>
     </item>
     <item>
       <title>ABOUT ME</title>
@@ -72,6 +74,7 @@
 <p>本站使用 <a href="https://www.gridea.pro/">Gridea Pro</a> 搭建。</p>
 <!-- more -->
 <!-- more -->]]></description>
+      <enclosure url="https://infe1.github.io/post-images/about.png" length="0" type="image/png"></enclosure>
     </item>
   </channel>
 </rss>
